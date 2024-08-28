@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgba(216, 216, 216, 0.811); /* Background color for the navbar */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding: 20px 50px;
+    display: flex; /* Use flexbox to layout navbar */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out logo and 'Sign In' button */
+    border: 1px solid #e7e7e7;
+}
+
+
+/* Align all items to the left by default */
+.navbar ul {
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Vertically center items */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    list-style-type: none; /* Remove list bullets */
+    width: 100%; /* Full width of the container */
+}
+
+/* Center the links in the navbar */
+.center-nav {
+    display: flex; /* Enable flexbox layout for the center items */
+    margin: 0 auto; /* Center the items in the navbar */
+    flex-grow: 1; /* Allows the center section to grow and take up space */
+    justify-content: center; /* Center align the items within the center-nav */
+    gap: 50px;
+}
+
+/* Push the 'Sign In' button to the right */
+.navbar ul li.right {
+    margin-left: auto; /* Pushes this item to the far right */
+}
+
+/* Link styling */
+.navbar a {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 15px; /* Padding for links */
+    text-align: center; /* Center text in links */
+}
+
+.organizations, .about, .contact {
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.organizations:hover, .about:hover, .contact:hover {
+    background-color:  rgba(216, 216, 216, 0.675); /* Darker color on hover */
+}
+
+.logo {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    
+}
+
+/* Sign In button styling */
+.signIn {
+    background-color: #848484; /* Green */
+    border: none;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white; /* Text color inside button */
+    margin: 0;
+    border-radius: 12px;
+}
+
+.signIn a {
+    color: white; /* Ensures link text inside button is white */
+    text-decoration: none; /* Remove underline from the link */
+    display: block; /* Make the link take the full size of the button */
+}
+
+.header{
+    font-size: 50px;
+    
+    padding-left: 100px;
+    padding-top: 25px;
+
+}
