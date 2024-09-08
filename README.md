@@ -31,7 +31,7 @@
 * The group leader then will review the code and is responsible for ensuring that it works with the rest of the project.  
 * The group leader will then merge the branch with the master and delete the member’s branch
 
-**Git Commands**
+**Git Commands:**
 
 * Pull up to date project: ```git pull```
 * Create and switch to a branch: ```git checkout -b "branch_name"```
