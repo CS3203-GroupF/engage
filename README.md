@@ -27,6 +27,16 @@
 **Branch Plan:**
 
 * Any group member who plans to make changes will create their own branch.  
-* Upon completion of the change the member will add their commit to their branch and inform the group leader.  
+* Upon completion of the change the member will add their commit to their branch, push the changes, and inform the group leader.  
 * The group leader then will review the code and is responsible for ensuring that it works with the rest of the project.  
 * The group leader will then merge the branch with the master and delete the member’s branch
+
+**Git Commands**
+
+* Pull up to date project: ```git pull```
+* Create and switch to a branch: ```git checkout -b "branch_name"```
+* Stage changes: ```git add filename``` or ```git add --all```
+* Commit changes: ```git commit -m "message"```
+* Push changes: ```git push```
+* Merge branches: ```git merge branch_name```
+* Switch branches: ```git switch branch_name```
