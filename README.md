@@ -34,6 +34,7 @@
 **Git Commands:**
 
 * Pull up to date project: ```git pull```
+* Show modified files in working directory ```git status```
 * Create and switch to a branch: ```git checkout -b "branch_name"```
 * Stage changes: ```git add filename``` or ```git add --all```
 * Commit changes: ```git commit -m "message"```
