@@ -9,20 +9,24 @@
 * Make the website more user friendly.  
 * Increase student involvement around campus.  
 * Help students find a community that aligns with their interests.
+* Allow officers and advisors easy access to important documents and rosters for both academic and social purposes.
 
 **Features:** 
 
 * User Input: Students can input their preferences from a drop down selection list that includes likes, major, and interests.  
 * Club Recommendation: Based on the user’s input, the website recommends university clubs that match the student’s selections.  
 * University Database Integration: The system pulls club data from a university database to provide accurate information regarding the available clubs at the University of Oklahoma.
+* Quality of life: Sinced we aim to cater towards not just incoming freshmen, but to club members and chairs as well, we seek to create an easy way for our users to access mandatory documents and stay up-to-date with club agendas and duties.
 
 **Current Tasks:**
 
 * Trying to get OU’s database information for clubs and organizations from the Director of Student Government and Organization Services.   
-* We will be reciveing:   
+* We will be receiving:   
   * Organization name  
   * Number of members in the roster  
-  * Organization description 
+  * Organization description
+  * 9/19/2024 Still waiting on a response from the Director of Student Givernment and Organization Services
+* Learning HTML at the moment to create and design the homepage of the site, and any branch sites that may stem from links and such.
 
 **Branch Plan:**
 
