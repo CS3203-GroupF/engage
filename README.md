@@ -21,7 +21,7 @@
 **Current Tasks:**
 
 * Trying to get OU’s database information for clubs and organizations from the Director of Student Government and Organization Services.   
-* We will be receiving:   
+* At the minimum we will be recieving:   
   * Organization name  
   * Number of members in the roster  
   * Organization description
