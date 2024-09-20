@@ -11,7 +11,7 @@
 * Help students find a community that aligns with their interests.
 * Allow officers and advisors easy access to important documents and rosters for both academic and social purposes.
 
-**Features:** 
+**Features:**
 
 * User Input: Students can input their preferences from a drop down selection list that includes likes, major, and interests.  
 * Club Recommendation: Based on the user’s input, the website recommends university clubs that match the student’s selections.  
@@ -20,8 +20,8 @@
 
 **Current Tasks:**
 
-* Trying to get OU’s database information for clubs and organizations from the Director of Student Government and Organization Services.   
-* At the minimum we will be recieving:   
+* Trying to get OU’s database information for clubs and organizations from the Director of Student Government and Organization Services.
+* At the minimum we will be recieving:
   * Organization name  
   * Number of members in the roster  
   * Organization description
@@ -46,3 +46,4 @@
 * Merge branches: ```git merge branch_name```
 * Switch branches: ```git switch branch_name```
 * Abort a merge in case of conflicts: ```git merge --abort```
+* Pull with an automatic stash save and apply: `git pull --autostash`
