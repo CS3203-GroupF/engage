@@ -45,3 +45,4 @@
 * Push changes: ```git push```
 * Merge branches: ```git merge branch_name```
 * Switch branches: ```git switch branch_name```
+* Abort a merge in case of conflicts: ```git merge --abort```
