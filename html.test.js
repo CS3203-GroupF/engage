@@ -7,6 +7,7 @@ document.body.innerHTML = `
             <li><img src="images/EngageLogo.png" class="logo"></li>
             <div class="center-nav">
                 <li><a class="organizations" href="organizations.html">Organizations</a></li>
+                <li><a class="events" href="events.html" target="_blank">Events</a></li>
                 <li><a class="about" href="about.html">About</a></li>
                 <li><a class="contact" href="contact.html">Contact</a></li>
             </div>
