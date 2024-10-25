@@ -27,6 +27,7 @@ function setHref(id, URL) {
 
 function setNavBarHrefs() {
     setHref("organizations", "organizations.html")
+    setHref("events", "events.html")
     setHref("about", "about.html")
     setHref("contact", "contacts.html")
 }
