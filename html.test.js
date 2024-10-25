@@ -6,9 +6,10 @@ document.body.innerHTML = `
         <ul>
             <li><img src="images/EngageLogo.png" class="logo"></li>
             <div class="center-nav">
-            <li><a id="organizations" class="organizations" href="" target="_blank">Organizations</a></li>
-            <li><a id="about" class="about" href="" target="_blank">About</a></li>
-            <li><a class="contact" href="" target="_blank">Contact</a></li>
+              <li><a id ="organizations" class="organizations" href="" target="_blank">Organizations</a></li>
+              <li><a id = "events" class="events" href="events.html" target="_blank">Events</a></li>
+              <li><a id ="about" class="about" href ="" target="_blank">About</a></li>
+              <li><a class="contact" href="" target="_blank">Contact</a></li>
             </div>
             <li class="right"><button class="signIn"><a href="signin.html">Sign In</a></button></li>
         </ul>
