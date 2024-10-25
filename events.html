@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OU Engage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <!-- Logo on the left -->
+            <li><img src="images/EngageLogo.png" class="logo" alt="OU Engage Logo"></li>
+
+            <!-- Centered links -->
+            <div class="center-nav">
+                <li><a class="organizations" href="organizations.html" target="_blank">Organizations</a></li>
+                <li><a class="events" href="events.html" target="_blank">Events</a></li>
+                <li><a class="about" href="about.html" target="_blank">About</a></li>
+                <li><a class="contact" href="contact.html" target="_blank">Contact</a></li>
+            </div>
+
+            <!-- Sign In button on the right -->
+            <li class="right"><button class="signIn"><a href="signin.html">Sign In</a></button></li>
+        </ul>
+    </nav>
+
+    <h1 class="header">Upcoming Events</h1>
+
+    <!-- Search bar -->
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search for events..." onkeyup="filterEvents()">
+    </div>
+
+    <!-- Tag-based filtering -->
+    <div class="tag-container">
+        <button class="tag" onclick="filterByTag('Sports')">Sports</button>
+        <button class="tag" onclick="filterByTag('Technology')">Technology</button>
+        <button class="tag" onclick="filterByTag('Music')">Music</button>
+        <button class="tag" onclick="filterByTag('Art')">Art</button>
+        <button class="tag" onclick="filterByTag('Community')">Community</button>
+    </div>
+
+    <!-- List of events with date, time, and location -->
+    <ul id="event-list">
+        <li class="event-item" data-tags="Sports">
+            <h2>OU Football Game</h2>
+            <p>Date: October 28, 2024</p>
+            <p>Time: 3:00 PM</p>
+            <p>Location: OU Stadium</p>
+        </li>
+        <li class="event-item" data-tags="Technology">
+            <h2>Tech Talk: Innovations in AI</h2>
+            <p>Date: November 5, 2024</p>
+            <p>Time: 1:00 PM</p>
+            <p>Location: Tech Hall</p>
+        </li>
+        <li class="event-item" data-tags="Music">
+            <h2>OU Jazz Concert</h2>
+            <p>Date: November 12, 2024</p>
+            <p>Time: 7:00 PM</p>
+            <p>Location: Music Auditorium</p>
+        </li>
+        <li class="event-item" data-tags="Art">
+            <h2>Art Exhibition: OU Creatives</h2>
+            <p>Date: November 20, 2024</p>
+            <p>Time: 10:00 AM</p>
+            <p>Location: Art Gallery</p>
+        </li>
+        <li class="event-item" data-tags="Community">
+            <h2>Community Volunteer Drive</h2>
+            <p>Date: December 1, 2024</p>
+            <p>Time: 9:00 AM</p>
+            <p>Location: Community Center</p>
+        </li>
+    </ul>
+
+    <script>
+       function filterEvents() {
+    let input = document.getElementById('search-bar').value.toLowerCase();
+    let items = document.getElementsByClassName('event-item');
+    let searchWords = input.split(' ');
+    let noResults = true;
+
+    for (let i = 0; i < items.length; i++) {
+        let item = items[i];
+        let itemText = item.innerHTML.toLowerCase();
+        let match = searchWords.some(word => itemText.includes(word));
+
+        if (match) {
+            item.style.display = "";
+            noResults = false;
+        } else {
+            item.style.display = "none";
+        }
+    }
+
+    if (noResults) {
+        if (!document.getElementById('error-message')) {
+            let errorMessage = document.createElement('p');
+            errorMessage.id = 'error-message';
+            errorMessage.textContent = 'No events found.';
+            document.getElementById('event-list').appendChild(errorMessage);
+        }
+    } else {
+        let errorMessage = document.getElementById('error-message');
+        if (errorMessage) {
+            errorMessage.remove();
+        }
+    }
+}
+
+
+        // Function to filter events by selected tag
+        function filterByTag(tag) {
+            let items = document.getElementsByClassName('event-item');
+
+            for (let i = 0; i < items.length; i++) {
+                let item = items[i];
+                let itemTags = item.getAttribute('data-tags');
+
+                if (itemTags.includes(tag)) {
+                    item.style.display = "";
+                } else {
+                    item.style.display = "none";
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
+
