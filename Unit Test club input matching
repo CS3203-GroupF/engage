@@ -1,0 +1,68 @@
+import unittest
+
+def recommend_clubs(user_input, clubs):
+    """
+    Recommends clubs based on user input.
+    
+    :param user_input: A list of keywords entered by the user.
+    :param clubs: A list of dictionaries where each dictionary represents a club with 'name' and 'keywords'.
+    :return: A list of club names that match the user input.
+    """
+    recommendations = []
+    for club in clubs:
+        if any(keyword in club['keywords'] for keyword in user_input):
+            recommendations.append(club['name'])
+    return recommendations
+
+class TestRecommendClubs(unittest.TestCase):
+    
+    def setUp(self):
+        """
+        Set up a simulated list of clubs for testing.
+        Each club is represented by a dictionary with 'name' and 'keywords'.
+        """
+        self.clubs = [
+            {'name': 'Robotics Club', 'keywords': ['technology', 'robots', 'engineering']},
+            {'name': 'Art Club', 'keywords': ['painting', 'drawing', 'sculpture']},
+            {'name': 'Gaming Club', 'keywords': ['video games', 'board games', 'strategy']},
+        ]
+    
+    def test_recommend_single_keyword(self):
+        """
+        Test if the function correctly recommends a club based on a single keyword.
+        """
+        user_input = ['robots']
+        expected_output = ['Robotics Club']
+        self.assertEqual(recommend_clubs(user_input, self.clubs), expected_output)
+    
+    def test_recommend_multiple_keywords(self):
+        """
+        Test if the function correctly recommends clubs based on multiple keywords.
+        """
+        user_input = ['painting', 'video games']
+        expected_output = ['Art Club', 'Gaming Club']
+        self.assertEqual(recommend_clubs(user_input, self.clubs), expected_output)
+    
+    def test_no_recommendation(self):
+        """
+        Test if no clubs are recommended when the input doesn't match any keywords.
+        """
+        user_input = ['sports']
+        expected_output = []
+        self.assertEqual(recommend_clubs(user_input, self.clubs), expected_output)
+    
+    def test_recommend_with_partial_overlap(self):
+        """
+        Test if the function recommends the correct clubs when some keywords match.
+        """
+        user_input = ['robots', 'painting']
+        expected_output = ['Robotics Club', 'Art Club']
+        self.assertEqual(recommend_clubs(user_input, self.clubs), expected_output)
+
+if __name__ == '__main__':
+    # This works without calling unittest.main() in environments like Jupyter or Python interactive consoles
+    loader = unittest.TestLoader()
+    suite = loader.loadTestsFromTestCase(TestRecommendClubs)
+    
+    runner = unittest.TextTestRunner()
+    runner.run(suite)
