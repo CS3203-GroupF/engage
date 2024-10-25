@@ -6,9 +6,9 @@ document.body.innerHTML = `
         <ul>
             <li><img src="images/EngageLogo.png" class="logo"></li>
             <div class="center-nav">
-                <li><a class="organizations" href="organizations.html">Organizations</a></li>
-                <li><a class="about" href="about.html">About</a></li>
-                <li><a class="contact" href="contact.html">Contact</a></li>
+            <li><a id="organizations" class="organizations" href="" target="_blank">Organizations</a></li>
+            <li><a id="about" class="about" href="" target="_blank">About</a></li>
+            <li><a class="contact" href="" target="_blank">Contact</a></li>
             </div>
             <li class="right"><button class="signIn"><a href="signin.html">Sign In</a></button></li>
         </ul>
@@ -67,6 +67,35 @@ function filterByTag(tag) {
     }
 }
 
+function signin(username, password) {
+    // simulates this code
+    // var input1 = document.getElementById("username").value
+    var input1 = username
+    // simulates this code
+    //var input2 = document.getElementById("password").value
+    var input2 = password
+    if (input1 == "") {
+        // returns what would normally be a pop up
+        // alert("Please enter a username")
+        return "Please enter a username"
+    }
+    else if (input2 == "") {
+        // returns what would normally be a pop up
+        // alert("Please enter a password")
+        return "Please enter a password"
+    }
+    else if (input1 == "null") {
+        // returns what would normally be a pop up
+        // alert("Invalid username")
+        return "Invalid username"
+    }
+    else {
+        // return what would normally be a redirect
+        // window.location.href = "about.html?user=" + input1
+        return "about.html?user=" + input1
+    }
+}
+
 // Jest test cases
 describe('HTML Structure and Interaction Tests', () => {
 
@@ -116,6 +145,19 @@ describe('HTML Structure and Interaction Tests', () => {
         expect(organizationItems[1].style.display).toBe('none'); // OU Tech Enthusiasts
         expect(organizationItems[2].style.display).toBe('none'); // OU Choir
     });
+
+    test('signin updates page correctly', () => {
+        // Test that a blank username alerts the user to enter a username
+        expect(signin("", "pass")).toBe("Please enter a username")
+        // Test that a blank password alerts the user to enter a password
+        expect(signin("User", "")).toBe("Please enter a password")
+        // Test that a username of null is invalid
+        expect(signin("null", "")).toBe("Invalid username")
+        // Test that a blank form alerts the user to enter a username first
+        expect(signin("", "")).toBe("Please enter a username")
+        // Test that a correct form redirects properly
+        expect(signin("User", "pass")).toBe("about.html?user=User")
+    })
 
 });
 

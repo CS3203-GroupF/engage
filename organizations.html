@@ -15,9 +15,9 @@
 
             <!-- Centered links -->
             <div class="center-nav">
-                <li><a class="organizations" href="organizations.html" target="_blank">Organizations</a></li>
-                <li><a class="about" href="about.html" target="_blank">About</a></li>
-                <li><a class="contact" href="contact.html" target="_blank">Contact</a></li>
+            <li><a id="organizations" class="organizations" href="" target="_blank">Organizations</a></li>
+            <li><a id="about" class="about" href="" target="_blank">About</a></li>
+            <li><a class="contact" href="" target="_blank">Contact</a></li>
             </div>
 
             <!-- Sign In button on the right -->
@@ -50,7 +50,10 @@
         <li class="organization-item" data-tags="Community">OU Volunteer Group</li>
     </ul>
 
+    <script src="app.js"></script>
+
     <script>
+        setNavBarHrefs()
         // Function to filter organizations by search input
         function filterOrganizations() {
             let input = document.getElementById('search-bar').value.toLowerCase();
