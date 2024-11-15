@@ -1,14 +1,15 @@
-// htmlTests.test.js
+// html.test.js
 
 // Mock the DOM structure using jsdom
+
 document.body.innerHTML = `
     <nav class="navbar">
         <ul>
             <li><img src="images/EngageLogo.png" class="logo"></li>
             <div class="center-nav">
-                <li><a class="organizations" href="organizations.html">Organizations</a></li>
-                <li><a class="about" href="about.html">About</a></li>
-                <li><a class="contact" href="contact.html">Contact</a></li>
+                <li><a class="organizations" href="organizations.html" target="_blank">Organizations</a></li>
+                <li><a class="about" href="about.html" target="_blank">About</a></li>
+                <li><a class="contact" href="contact.html" target="_blank">Contact</a></li>
             </div>
             <li class="right"><button class="signIn"><a href="signin.html">Sign In</a></button></li>
         </ul>
@@ -17,7 +18,7 @@ document.body.innerHTML = `
     <h1 class="header">Organizations</h1>
 
     <div class="search-container">
-        <input type="text" id="search-bar" placeholder="Search for organizations...">
+        <input type="text" id="search-bar" placeholder="Search for organizations..." onkeyup="filterOrganizations()">
     </div>
 
     <div class="tag-container">
@@ -102,8 +103,9 @@ describe('HTML Structure and Interaction Tests', () => {
         expect(organizationItems[0].style.display).toBe('none'); // OU Football Club
         expect(organizationItems[1].style.display).toBe(''); // OU Tech Enthusiasts
         expect(organizationItems[2].style.display).toBe('none'); // OU Choir
+        expect(organizationItems[3].style.display).toBe('none'); // OU Art Collective
+        expect(organizationItems[4].style.display).toBe('none'); // OU Volunteer Group
     });
-
 
     test('filterByTag filters by tag correctly', () => {
         const organizationItems = document.getElementsByClassName('organization-item');
@@ -115,24 +117,8 @@ describe('HTML Structure and Interaction Tests', () => {
         expect(organizationItems[0].style.display).toBe(''); // OU Football Club
         expect(organizationItems[1].style.display).toBe('none'); // OU Tech Enthusiasts
         expect(organizationItems[2].style.display).toBe('none'); // OU Choir
+        expect(organizationItems[3].style.display).toBe('none'); // OU Art Collective
+        expect(organizationItems[4].style.display).toBe('none'); // OU Volunteer Group
     });
 
 });
-
-/* Explanation of the Tests:
-Search Bar Test:
-
-Ensures that the search bar exists, has the correct placeholder text, and is an input element.
-Organization List Test:
-
-Verifies that the organization list is populated with exactly 5 items.
-Tag Buttons Test:
-
-Ensures that the 5 expected tag buttons exist (Sports, Technology, Music, Art, Community).
-filterOrganizations Test:
-
-Simulates entering text into the search bar and checks if the correct organizations are shown and hidden.
-filterByTag Test:
-
-Simulates selecting a tag (e.g., "Sports") and verifies that only the relevant organization is visible.
-*/
