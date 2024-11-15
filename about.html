@@ -5,8 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OU Engage</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Temporary styles for illustration */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
 
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
 
+        .navbar ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px;
+            margin-left: 20px;
+        }
+
+        .center-nav li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .center-nav a, .signIn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .signIn button {
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+
+        .content-section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .slideshow {
+            position: relative;
+            width: 100%;
+            height: 60vh;
+            overflow: hidden;
+            background-color: #eee; /* Placeholder */
+        }
+
+        .slideshow img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            animation: fade 12s infinite;
+        }
+
+        @keyframes fade {
+            0% { opacity: 1; }
+            33% { opacity: 0; }
+            66% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .calendar {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        iframe {
+            border: none;
+        }
+    </style>
 </head>
 <body>
 
@@ -27,12 +110,29 @@
         </ul>
     </nav>
 
+    <!-- Slideshow Background -->
+    <div class="slideshow">
+        <img src="images/club-mens-rugby.jpg" alt="Slideshow Image 1">
+        <img src="images/College Clubs.jpg" alt="Slideshow Image 2">
+        <img src="images/find-a-college-club-feature-1500x500.jpg" alt="Slideshow Image 3">
+    </div>
 
+    <!-- Importance of Joining Clubs Section -->
+    <section class="content-section">
+        <h2>Why Join Clubs in College?</h2>
+        <p>Joining clubs in college is a fantastic way to make new friends, build leadership skills, and enhance your overall experience. 
+           Being part of an organization allows you to explore your interests, gain hands-on experience, and contribute to your community.</p>
+        <p>Whether it's academic, cultural, or recreational, there's a club for everyone!</p>
+    </section>
 
-
-
-
-
+    <!-- Calendar Section -->
+    <section class="calendar">
+        <h2>Upcoming Club Events</h2>
+        <p>Stay updated with the latest events and activities happening on campus!</p>
+        <iframe src="https://calendar.google.com/calendar/embed?src=7da53b9c2f603af3b33aef8fdec2c0069d0586ef75a600daaccd9e73a59e84dc%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                
+        <!-- Replace 'your_calendar_id' with the actual ID of the calendar to display events. -->
+    </section>
 
 </body>
 </html>
