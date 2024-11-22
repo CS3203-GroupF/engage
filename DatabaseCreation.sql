@@ -161,7 +161,70 @@ VALUES
 (26, 'Beekeeprs Association',
     'We currently have two beehives maintained by members of the club who have attended an hour-long training session created by the club. ' +
     'We care for the hives from early spring to fall every year, including overthe summer.',
-    'beekeeping, social, bees, animals');
+    'beekeeping, social, bees, animals'),
+
+(27, 'Big brothers Big Sisters Collegiate Board',
+    'Big Brothers Big Sisters Collegiate Board is a cohort of Bigs that help connect Big Brothers Big Sisters with the OU community by organizing outreach events.',
+    'fraternity, sorority, greek life, community, mentorship'),
+
+(28, 'Billiards Club',
+    'We welcome anyone who wants to have a good time and make freinds playing pool.',
+    'pool, billiards, social, sports, recreational'),
+
+(29, 'Biology Graduate Student Organization',
+    'We represent the graduate students of the SBS Department at the University of Oklahoma. ' +
+    'Some of us are working towards a PHD and some towards a Masters, but we are all working together.',
+    'graduate, networking, biology'),
+
+(30, 'Biomedical Engineering Student Affairs',
+    'We are a graduate led organization aimed at fostering community for the Stephenson School of Biomedical Engineering graduate program.',
+    'graduate, biomedical engineering, biomedical, networking'),
+
+(31, 'Black Business Network',
+    'The Black Business Netowrk aims to cultivate and empower future Black business leaders. ' +
+    'We provide mentorship, resources, and community to help Black students excel through the Price School of Business and thrive in the world of business.',
+    'black, culture, networking, mentorship, african american, business'),
+
+(32, 'Black Girl White Coat',
+    'To cultivate and empower all those who identify as Black women on Ous campus through fellowship and discussion meant to bring attention to and work against the obstacles Black women face pursuing a career in STEM.',
+    'black, culture, networking, mentorship, women, women led, stem, engineering, science'),
+
+(33, 'Black Student Association',
+    'The mission of the organization aims to serve as a primary source of information, to serve as a positive role model, and to promote interaction and communication for Black students and various communities at OU.',
+    'black, culture, networking, mentorship, community, professional development'),
+
+(34, 'Board and Card Game Club',
+    'The Board and Card Game Club is an organization open to anybody who likes to play board or card games! The club plays games of all genres and complexiites, so there will be something for everybody to enjoy.',
+    'board games, card games, social, recreational'),
+
+(35, 'Boomer Rocket Team',
+    'OU Rocket Team Club is an interdisciplinary academic team in which students design, build, and launch high powered rockets. ' +
+    'The team trains and certifies members to build rockets, competes nationally in various events, and takes on experimental independent projects.'
+    'competition teams, engineering, rockets, stem, interdisciplinary'),
+    
+(36, 'Boxing Enthusiasts',
+    'We are an organization designed to bring students together through the sport of boxing. ' +
+    'We are dedicated to bringing together fans and boxers from all walks of life to celebrate the sport we love.'
+    'boxing, sports, recreational, social'),
+
+(37, 'Business Law Society',
+    'We are committed to fostering community, providing degree navigation, mentorship, and networking opportuniities for all interested JD candidates and Undergraduate students who are starting to think about Law School.',
+    'law, graduate, mentorship, business, community, networking'),
+
+(38, 'Caribbean Students Association',
+    'The Caribbean Students Association is a cultural organization aimed at integrating students who are connected to the Caribbean region in more ways than one. ' +
+    'It is also a welcoming space for non-Caribbean students interested in learning mroe about the Caribbean, its people, its history, and its culture through social gathering and various cultural events.',
+    'Caribbean, culture, history, social'),
+
+(39, 'Catholic Student Association',
+    'Our mission is to foster spiritual, intellectual, and emotion growth among college students by encouraging the development of Chirst-centered consciences and attitudes of discipleship in a welcoming community.',
+    'religion, christian, catholoicism, community, spiritual, mentorship'),
+
+(40, 'Chi Alpha Campus Ministry',
+    'Connecting students to Christ, transforming the university, marketplace, and the world. ' +
+    'Chi Alpha has weekly male and female Life Groups that are based on discussing what it means to follow Jesus.',
+    'religion, christian, community, spiritual, worship');
+    
 
     
     
@@ -222,7 +285,44 @@ VALUES
 
 (25,25, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
 
-(26,26, 'N/A', 'N/A', 'oubeeclub@ou.edu', 'N/A', 'N/A');
+(26,26, 'N/A', 'N/A', 'oubeeclub@ou.edu', 'N/A', 'N/A'),
+
+(27,27, 'N/A', 'N/A', 'kfeiner1@ou.edu', '(405)-364-3722', '502 E Main Street Norman OK 73071'),
+
+(28,28, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(29,29, 'N/A', 'N/A', 'BGSOAdministration@groups.ou.edu', 'N/A', 'N/A'),
+
+(30, 30, 'N/A', 'N/A', 'abbiem01@ou.edu', 'N/A', 'N/A'),
+
+(31,31, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(32,32, 'Jordyn', 'Williams', 'Jordyn.s.williams-1@ou.edu', '(405)-339-2692', '660 Parrington Oval Norman OK 73019'),
+
+(33,33, 'N/A', 'N/A', 'bsa.ou1967@gmail.com', '(405)-325-3163', '900 Asp Avenue Suite 429 Norman OK 73019'),
+
+(34,34, 'Harrison', 'Dean', 'harrison.e.dean-1@ou.edu', 'N/A', 'N/A'),
+
+(35,35, 'N/A', 'N/A', 'brt@ou.edu', '(405)-325-2621', '202 W. Boyd St. Room 107 Norman OK 73019'),
+
+(36,36, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(37,37, 'Lucila', 'Kotroba', 'lucila.kotroba-1@ou.edu', 'N/A', 'University of Oklahoma College of Law 300 Timberdell Road Norman OK 73019'),
+
+(38,38, 'N/A', 'N/A', 'madmbenton@ou.edu', '(918)-408-1977', 'N/A'),
+
+(39,39, 'Sydney', 'Brown', 'sydney.c.brown-1@ou.edu', '(405)-76002128', 'N/A'),
+
+(40,40, 'Bryan', 'Benedict', 'bryanbenedictxa@gmail.com', '(972)-832-2831', '900 Aps Avenue PO BOX 3045 Norman OK 73070');
+
+
+
+
+
+
+
+
+
 
 
 
