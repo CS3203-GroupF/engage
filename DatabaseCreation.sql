@@ -121,7 +121,50 @@ VALUES
 (17, 'American Constitution Society',
     'The American Constitution Society believes that law should be a force to improve the lives of all people. ' +
     'ACS works for positive change by shaping debate on vitally important legal and constitutional issues through development and promotion of high-impact ideas to opinion leaders and the media.',
-    'Constituion, debates, legal, networking, activism, law, policy');
+    'Constituion, debates, legal, networking, activism, law, policy'),
+
+(18, 'American Indian Studen Association',
+    'AISA exists to promote and encourage the welfare of American Indian, Alaska Native, Native Hawaiian, and other Indigenous students at the University of Oklahoma by providing a broad spectrum of educatoinal, social, and cultrual activiites.',
+    'American Indian, Culture, Native, Indigenous, Social'),
+
+(19, 'American Institute of Chemical Engineers',
+    'OUs chapter of the American Institute of Chemical Engineers aims to serve the undergraduate students of the School of Sustainable Chemical, Biological and Materials Engineering in both social and career endeavors.',
+    'Chemical Engineering, Engineering, professional development, networking'),
+
+(20, 'American Marketing Association',
+    'AMA offers students interested in a career in marketing or other business fields the opportunity to develop a better understanding of the industry. ' +
+    'The organization plans to achieve these objectives through advisment and mentoryship from professionals in the field by hosting speakers which will allow the students to gain first-hand knowledge of what is expected of professionals.',
+    'Marketing, Professional development, networking, business, mentorship, advising'),
+
+(21, 'American Society of Civil Engineers',
+    'ASCE is the student organization representing civil, architectural, and environmental engineering students at the University of Oklahoma.',
+    'Civil Engineering, Engineering, professional development, environmental engineering, architectural engineering, networking'),
+
+(22, 'American Society of Mechanical Engineers',
+    'ASME is dedicated to connecting, engaging, and enriching mechanical engineering students at OU',
+    'Mechanical Engineering, Engineering, professional development, networking'),
+
+(23, 'Animation at The University of Okalhoma',
+    'Members of Animation@OU will engage with a wide variety of animated media and learn about the different work that goes into their creation. ' +
+    'Our goal is to bring together members of the OU community with an interest in animation',
+    'Animation, networking, voice acting, screenwriting, community'),
+
+(24, 'Arab Student Association',
+    'ASA aims to share and celebrate Arab culture and heritage among the OU community as well as create a space for Arab students to express their identitiy.',
+    'culture, arab, community, diversity, heritage'),
+
+(25, 'Art Club',
+    'We intend to give visual artists a space to practice, learn, and create art. ' +
+    'This will include inviting professionals to share how they have made art a successful career.',
+    'art, animation, painting'),
+
+(26, 'Beekeeprs Association',
+    'We currently have two beehives maintained by members of the club who have attended an hour-long training session created by the club. ' +
+    'We care for the hives from early spring to fall every year, including overthe summer.',
+    'beekeeping, social, bees, animals');
+
+    
+    
 
     
 
@@ -161,7 +204,31 @@ VALUES
 
 (16,16, 'N/A', 'N/A', 'N/A', '(405)-325-3253', '100 E. Boyd St. Room 710 Norman, OK 73019'),
 
-(17,17, 'N/A', 'N/A', 'thai@ou.edu', '(123)-132-1234', '300 Timberdell Road Norman OK 73019');
+(17,17, 'N/A', 'N/A', 'thai@ou.edu', '(123)-132-1234', '300 Timberdell Road Norman OK 73019'),
+
+(18,18, 'N/A', 'N/A', 'Aisa@ou.edu', '(405)-325-3163', '900 Asp Ave Suite 429 Norman OK 74019'),
+
+(19,19, 'N/A', 'N/A', 'aiche@ou.edu', 'N/A', '100 E Boyd St. T-301'),
+
+(20,20, 'N/A', 'N/A', 'Rachel.A.Stone-1@ou.edu', '(405)-325-3561', '307 W. Brooks, Room 1 Price Hall Norman OK 73019'),
+
+(21,21, 'N/A', 'N/A', 'asceofficers@groups.ou.edu', 'N/A', 'N/A'),
+
+(22,22, 'N/A', 'N/A', 'avery.w.melster-1@ou.edu', '(713)-806-7760', 'N/A'),
+
+(23,23, 'Daneil', 'Strangward', 'daniel.strangward@ou.edu', '(405)-274-7498', 'N/A'),
+
+(24,24, 'N/A', 'N/A', 'ouarabstudents@gmail.com', 'N/A', 'N/A'),
+
+(25,25, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(26,26, 'N/A', 'N/A', 'oubeeclub@ou.edu', 'N/A', 'N/A');
+
+
+
+
+
+
 
 
 
