@@ -98,7 +98,32 @@ VALUES
     'This is the Alpha Eta Rho - Beta Chi chapter at OU. Alpha Eta Rho is a professional collegiate aviation fraternity founded in 1929, dedicated to fostering, and mentoring students that have a common interest in the field of aviation. ' + 
     'It is a coed fraternity that emphasizes mentorship, professional development, and leadership potential amongst students within the aviation industry. ' +
     'Alpha Eta Rho welcomes and encourages a diverse background of individuals to participate in their organization!', 
-    'Greek Life, Aviation, Fraternity, mentorship, professional development, leadership');
+    'Greek Life, Aviation, Fraternity, mentorship, professional development, leadership'),
+
+(13, 'Alpha Gamma Delta',
+    'Alpha Gamma Delta is a womens fraternity meant to build sisterhood, encourage better scholarship, promote volunteering, and build lasting friendships. ' +
+    'Guided by our Purpose Alpha Gamma Deltas strive to attain a higher standard, thereby improving their lives, the lives of those around them, and the communities in which they live.',
+    'Greek Life, Sorority, Sisterhood, Volunteering, Community'),
+
+(14, 'Alpha Kappa Delta Phi',
+    'We are the first, largest, and only international asian-interest sorority in the state of Oklahomma.',
+    'Greek Life, Sorority, International, Asian'),
+
+(15, 'Alpha Phi Alpha Fraternity, Inc.',
+    'Alpha Phi Alpha Fraternity, Inc., develops leaders, promotes brotherhood and academic excellence, while providiing service and advocacy for our communities.',
+    'Greek Life, Fraternity, leadership, mentorship'),
+
+(16, 'American Association of Petroleum Geologists',
+    'This chapterr is a student organization for the American Association of Petroleum Geologist. ' +
+    'We focus on networking and professional development opportunities for members, as well as offering a variety of technical talks and social activities',
+    'Professional development, petroleum, geology, petroleum geologist, networking'),
+
+(17, 'American Constitution Society',
+    'The American Constitution Society believes that law should be a force to improve the lives of all people. ' +
+    'ACS works for positive change by shaping debate on vitally important legal and constitutional issues through development and promotion of high-impact ideas to opinion leaders and the media.',
+    'Constituion, debates, legal, networking, activism, law, policy');
+
+    
 
 
 --Insert Data Values into Contact Table)--
@@ -126,7 +151,17 @@ VALUES
 
 (11,11, 'N/A', 'N/A', 'ouaxopres@gmail.com', '(832) 600-2465', '1115 College Ave Norman, OK 73072 United States'),
 
-(12,12, 'N/A', 'N/A', 'N/A', 'N/A', '1700 Lexington Ave Norman, Ok 73069 United States');
+(12,12, 'N/A', 'N/A', 'N/A', 'N/A', '1700 Lexington Ave Norman, Ok 73069 United States'),
+
+(13,13, 'Madison', 'Newberry', 'madison.newberry@ou.edu', '(405)-443-5098', '930 Chautauqua Ave Norman OK 73069'),
+
+(14,14, 'N/A', 'N/A', 'oukdphi.president@gmail.com', '(405)-837-1898', '900 Asp Avenue, Suite #311 Norman OK 73019'),
+
+(15,15, 'N/A', 'N/A', 'mkelly@ou.edu', '(405)-325-0850', '660 Parrington Oval Apt. 5089 Norman OK 73019'),
+
+(16,16, 'N/A', 'N/A', 'N/A', '(405)-325-3253', '100 E. Boyd St. Room 710 Norman, OK 73019'),
+
+(17,17, 'N/A', 'N/A', 'thai@ou.edu', '(123)-132-1234', '300 Timberdell Road Norman OK 73019');
 
 
 
