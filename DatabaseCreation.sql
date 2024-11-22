@@ -223,7 +223,56 @@ VALUES
 (40, 'Chi Alpha Campus Ministry',
     'Connecting students to Christ, transforming the university, marketplace, and the world. ' +
     'Chi Alpha has weekly male and female Life Groups that are based on discussing what it means to follow Jesus.',
-    'religion, christian, community, spiritual, worship');
+    'religion, christian, community, spiritual, worship, ministry'),
+
+(41, 'Chi Epsilon',
+    'National Civil Engineering Honor Society in the United Staes. ' +
+    'We honor engineering students who have exemplified the princples of scholarship, character, practicality, and sociability.',
+    'honor society, engineering, civil engineering, professional development, networking'),
+
+(42, 'Chinese Language and Culture Club',
+    'We are comprimised on students who are interested in Chinese language and culture. ' +
+    'Our events are all inclusive and highlight aspects of Chinese culture and aim to promote US-China relations through communication',
+    'culture, community, chinese, language'),
+
+(43, 'Christians on Campus',
+    'We are believers in hrist from arious backgrounds. ' +
+    'Christians on Campus warmly receives all believers in Christ and seeks to maintain the oneness of the Spirit by keeping our focus on Christ',
+    'religion, christianity, spiritual, worship, community'),
+
+(44, 'Circle K International',
+    'Circle K International is a university community focused on service, leadership, and friendship. ' +
+    'CKI is making a postiive impact on the world every day. ' +
+    'As a chapter, we make a difference on campus, in Norman, and throughout Oklahoma.',
+    'volunteering, leadership, friendship, community'),
+
+(45, 'Classic Film Club',
+    'We provide all movie lovers with the opportunity to watch great films and a community in which to discuss them.',
+    'film, movies, social, recreational'),
+
+(46, 'Club Golf Team',
+    'We are a student run organization for OU students who are interested in competing or learning more about golf.',
+    'golf, sports, recreational, social'),
+
+(47, 'College Democrats',
+    'Our organization is all about having fun while making a positive impact. ' +
+    'We educate our campus about progressive politicis, engage in meaningful discourse about current events, participate in volunteerism, activism, public forums, and political campaigns at all levels.',
+    'politics, democrat, volunteering, activism'),
+
+(48, 'College Republicans at the University of Oklahoma',
+    'The purpose of OUCR is to promote the principles of the Republican Party among students of the University of Oklahoma, to recruit students as members of the organization and as members of the Republican Party, and to aid in the election of Republican candidates at all levels of government.',
+    'politics, republican, community, professional development'),
+
+(49, 'Columbian Student Association',
+    'We help provide cultural academic, and economic opportunities to unite, support, and promote Colombian culture among all the nations present at the University of Oklahoma.',
+    'culture, Columbia, community'),
+
+(50, 'Computer Science Interview Preparation Club',
+    'The purpose of the Organization is to prepare students for technical programming interviews.',
+    'programming, computer science, interview, professional development');
+    
+
+
     
 
     
@@ -313,7 +362,28 @@ VALUES
 
 (39,39, 'Sydney', 'Brown', 'sydney.c.brown-1@ou.edu', '(405)-76002128', 'N/A'),
 
-(40,40, 'Bryan', 'Benedict', 'bryanbenedictxa@gmail.com', '(972)-832-2831', '900 Aps Avenue PO BOX 3045 Norman OK 73070');
+(40,40, 'Bryan', 'Benedict', 'bryanbenedictxa@gmail.com', '(972)-832-2831', '900 Aps Avenue PO BOX 3045 Norman OK 73070'),
+
+(41,41, 'N/A', 'N/A', 'harvey@ou.edu', '(405)-325-3836', '202 W Boyd St Norman OK 73019'),
+
+(42,42, 'N/A', 'N/A', 'chineseclub@groups.ou.edu', 'N/A', 'N/A'),
+
+(43,43, 'N/A', 'N/A', 'christiansoncampus.ok@gmail.com', '(405)-974-9368', '704 W Lindsey St Norman OK 73069'),
+
+(44,44, 'N/A', 'N/A', 'ou.circlekinternational@gmail.com', 'N/A', '900 Asp Ave Rm. 181 Norman OK 73019 Norman OK 73019'),
+
+(45,45, 'Teddy', 'Winter', 'teddy.winter@ou.edu', '(682)-314-7111', 'N/A'),
+
+(46,46, 'Finn', 'Wolf', 'finnwolf@ou.edu', '(207)-274-4711', '841 Kansas St. Norman OK 73069'),
+
+(47,47, 'N/A', 'N/A', 'oucollegedemocrats@gmail.com', 'N/A', 'N/A'),
+
+(48,48, 'N/A', 'N/A', 'diulioa.26@ou.edu', '(714)-599-3562', 'N/A'),
+
+(49,49, 'Andres', 'Gonzalez', 'andres.gonzalez@ou.edu', '(405)-325-3721', '202 W. Boyd St. Room 124 Norman OK 73019'),
+
+(50,50, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A');
+
 
 
 
