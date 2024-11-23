@@ -435,6 +435,49 @@ VALUES
     'To provide a communnity, network, and resources to Industrial and Systems Engineering students through events, both social, educational, and professional.',
     'Industrial Engineering, engineering, stem, community, professional development'),
 
+(91, 'International Students Club',
+    'This club aims to provide opportunities for all international students to participate in social activities, community events, mentorship, and campus involvement.',
+    'international students, transfer students, community, social'),
+
+(92, 'Investment Club at The University of Oklahoma',
+    'The Investment Club achieves mission is to foster growth with like-minded individuals. The investment club achieves this mission by providing students with numerous opportunities to learn about investing and gain practical experience in managing a portfolio.',
+    'investing, finance, professional development, networking'),
+
+(93, 'Japanese Club',
+    'Japanese Club is dedicated to serving our students that are interested in or learning japanese language.',
+    'langauge, japanese, japan, culture'),
+
+(94, 'Kappa Delta Chi Sorority, Inc.',
+    'Kappa Delta Chi Sorority, Inc. is a sisterhood based on service to the community. ' +
+    'This sisterhood has been nationally recognized as an organization that upholds the values of Unity, Honesty, Integrity, and Leadership.',
+    'sisterhood, fraternity, hispanic, greek life, community'),
+
+(95, 'Korean Student Association',
+    'We are a Korean cultural student organization that promotes Korean culture through cultural, social, political, and communtiy service events.',
+    'korean, culture, community service, community, diversity'),
+
+(96, 'Leadership and Volunteerism',
+    'Leadership and Volunteerism provides educational programming and opportunities for students to make a difference.',
+    'leadership, volunteerism, community, personal development, volunteering'),
+
+(97, 'Linguistics Club',
+    'We enjoy talking about language with other interested people.',
+    'language, social, voltuneerism'),
+
+(98, 'Math Club',
+    'We are a society for the promotion of and appreciation for the beauty of mathematics.',
+    'math, stem, social'),
+
+(99, 'Model United Nations',
+    'We seek to understand the United Nations in a fun and engaging way. ' +
+    'We imitate the work of the UN and aim to gain a deeper understanding of the work they do in the world.',
+    'politics, activism, government, activism'),
+
+(100, 'Music Club',
+    'A community of students that enjoy music whether that be listening, talking about, playing, or learning about it.',
+    'music, social, recreational, instruments');
+
+
 --Insert Data Values into Contact Table)--
 INSERT INTO Contact(ContactID, OrganizationID, FirstName, LastName, Email, Phone, Address)
 VALUES
@@ -617,6 +660,31 @@ VALUES
 (89,89, 'N/A', 'N/A', 'kbreynolds@ou.edu', '(951)-764-4980', '865 Asp Ave Felgar Hall Norman OK 73019'),
 
 (90,90, 'Marsha', 'Schoolcraft', 'N/A', 'N/A', 'N/A'),
+
+(91,91, 'N/A', 'N/A', 'ou.one.isc@gmail.com', '(405)-868-0351', '202 W Boyd St Norman OK 73019'),
+
+(92,92, 'Elaina', 'Lahmann', 'Elaina.C.Lahmann-1@ou.edu', 'N/A', 'N/A'),
+
+(93,93, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(94,94, 'N/A', 'N/A', 'sigma.president@kappadeltachi.org', 'N/A', 'N/A'),
+
+(95,95, 'Ian', 'Pei', 'ianpei2000@ou.edu', '(918)-804-2366', '900 Asp Ave OMU Room 181 #109 Norman OK 73019'),
+
+(96,96, 'N/A', 'N/A', 'leadandvolunteer@ou.edu', '(405)-325-4020', 'Oklahoma Memorial Union Suite 247 900 Asp Avenue Norman OK 73019'),
+
+(97,97, 'Abigail', 'Baldwin', 'abigail.l.baldwin-1@ou.edu', 'N/A', 'N/A'),
+
+(98,98, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(99,99, 'N/A', 'N/A', 'mun@ou.edu', 'N/A', '729 Elm Ave Farzaneh Hall Room 150 Norman OK 73019'),
+
+(100,100, 'N/A', 'N/A', 'Lyrica@ou.edu', 'N/A', '524 W Boyd St Norman OK 73019');
+
+
+
+
+
 
 
 
