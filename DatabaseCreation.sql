@@ -392,7 +392,48 @@ VALUES
 
 (80, 'Graduate Philosophical Association',
     'The purpose of this organizationn is to promote and encourage a sense of commnity among the graduate students in the Philosohpy Department at the Unviersity of Oklahoma.',
-    'philosophy, graduate, social');
+    'philosophy, graduate, social'),
+
+(81, 'Graduate Women in Business',
+    'The OU Graduate Women in Business organizationn is designed to elevate women in business and inspire them to reach their full professional potential.',
+    'graduate, women, business, professional development'),
+
+(82, 'Graphic Deisgn Association',
+    'To promote the intellectual, social, and cultural opportunities at the University of Oklahoma.',
+    'graphic design, professional development, design'),
+
+(83, 'Hacklahoma',
+    'Hacklahomas mission is to kindle creativity and innovation in Oklahoma ' +
+    'We are working to develop a robust tech industry and tech community in Oklahoma and at the University of Oklahoma.',
+    'programming, computer science, robotics, virtual reality, artifical intelligence, hacking'),
+
+(84, 'Hispanic American Student Association',
+    'The purpose of the organization is to serve the university and surrounding community by emphasizing the culture, heritage, and traditions of the Hispanic American community at OU.',
+    'hispanic america, hispanic, culture, professional development'),
+
+(85, 'Horror Movie Club',
+    'Our club focuses on creating a relaxed, fun environmenet where you can connect with fellow Sooners who share a passion for movies.',
+    'movie, film, horror movies, social, recreational'),
+
+(86, 'Human Factors and Ergonomics Society',
+    'The organization is dedicated to the betterment of humankind through inclusive scientific inquiry and engineering applications at the interface of humans and their natural, residential, recreational, and vocational environments, with emphasis on enhancing performance, safety, and well-being at those interfaces.',
+    'ergonomics, engineering, community, stem'),
+
+(87, 'India Student Association',
+    'India Student Association exists to bring together the various cultural diversities of Indian international students and celebrate it.',
+    'Indian, cutlure, community'),
+
+(88, 'Indigenous Art Forms',
+    'Indigenous Art Forms offers a space on campus for students to practice, sustain, and revitalize various Indigenous Art Forms.',
+    'Art, Indigenous Art, Indigenous, culture'),
+
+(89, 'Institute of Eletrical and Electronic Engineers',
+    'IEEE is a dynamic and inclusive organization dedicated to advancing technology and fostering professional development among engineering students.',
+    'Eletrical Engineering, professional developemnt, engineering, stem'),
+
+(90, 'Institute of Industrial Engineers',
+    'To provide a communnity, network, and resources to Industrial and Systems Engineering students through events, both social, educational, and professional.',
+    'Industrial Engineering, engineering, stem, community, professional development'),
 
 --Insert Data Values into Contact Table)--
 INSERT INTO Contact(ContactID, OrganizationID, FirstName, LastName, Email, Phone, Address)
@@ -555,7 +596,32 @@ VALUES
 
 (79,79, 'N/A', 'N/A', 'gba@ou.edu', '(405)-325-1969', '865 Research Parkway 3rd Floor Oklahoma City OK 73104'),
 
-(80,80, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A');
+(80,80, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(81,81, 'Margaret', 'Shaffer', 'margaret.shaffer@ou.edu', '(414)-828-5569', '307 West Brooks MFPH 1065B Norman OK 73019'),
+
+(82,82, 'N/A', 'N/A', 'kmthumann@ou.edu', 'N/A', '520 Parrington Oval Norman OK 73019'),
+
+(83,83, 'N/A', 'N/A', 'hacklahoma@ou.edu', 'N/A', 'N/A'),
+
+(84,84, 'Millie', 'Martinez', 'millie.j.martinez-1@ou.edu', '(405)-305-9463', '9900 Asp Ave Norman OK 73069'),
+
+(85,85, 'N/A', 'N/A', 'ouhorrormovieclub@gmail.com', 'N/A', 'N/A'),
+
+(86,86, 'June', 'Hyung', 'junehyung_lee@ou.edu', '(405)-990-3748', 'N/A'),
+
+(87,87, 'N/A', 'N/A', 'indiastudentassociation@ou.edu', '(405)-845-6032', '900 Asp Ave Norman, OK 73071'),
+
+(88,88, 'Cianne', 'Bennet', 'graycianne.m.bennet-1@ou.edu', 'N/A', '660 Parrington Oval Norman OK 73019'),
+
+(89,89, 'N/A', 'N/A', 'kbreynolds@ou.edu', '(951)-764-4980', '865 Asp Ave Felgar Hall Norman OK 73019'),
+
+(90,90, 'Marsha', 'Schoolcraft', 'N/A', 'N/A', 'N/A'),
+
+
+
+
+
 
 
 
