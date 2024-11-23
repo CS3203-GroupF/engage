@@ -332,9 +332,67 @@ VALUES
 
 (65, 'Engineering Serving Others',
     'Engineers Serving Others at the University of Oklahoma is a student organization which utilizes the unique skill-sets of all engineering disciplines to fulfill the needs of nonprofit organizations in the Norman community and surrounding areas.',
-    'Engineering, volunteering, community');
-    
+    'Engineering, volunteering, community'),
 
+(66, 'Engineers Club',
+    'The purpose of this organization is to foster the high ideals of the Engineering profession to stimulate interest in engineering related activities.',
+    'Engineerings, professional development, stem'),
+
+(67, 'Entrepreneurship Club at The University of Oklahoma',
+    'The Entrepreneurship Club at OU is a departmental student organization under startup OU that exists to inspire and connect aspiring student entrepreneurs.',
+    'Entrepreneurship, business, professional development, networking'),
+
+(68, 'Environmental Science Student Association',
+    'ESSA aims to provide people opportunities for meaningful field experience, educational speaker visits, and engaging community work.',
+    'environmental science, science, stem, volunteering'),
+
+(69, 'Federalist Society',
+    'The Federalist Society is a group of conservatives and libertarians founded on the principals that the state exists to preserve freedom and that the seperation of governmental powers is central to our constitution.',
+    'politics, activism, conservative, libertarian, federalist'),
+
+(70, 'Filipino Student Association',
+    'We are dedicated to spreading Filipino cultural awareness on campus, and creating a family for every student and member interested in our vision.',
+    'Filipino, cultural, community, diversity'),
+
+(71, 'First Year Connections',
+    'The purpose of the first year connections is to assist first-year students in their transition from high school to college, while creating a community that can provide them with academic and social resources.',
+    'social, freshman, community'),
+
+(72, 'Flying Sooners',
+    'The Aviation Club was started to get members of the student body involved in aviation and create a group of people who share a passion for aviation.',
+    'aviation, flying'),
+
+(73, 'French Club',
+    'Our goal is to introduce and enhance students understanding and interest in Francophone cultures and languages, as well as provide camaraderie among the OU community.',
+    'french, language, culture'),
+
+(74, 'Game Developers Association',
+    'The Game Developers Association is dedicated to being a hub for students to learn about and practice creating video games of all kinds.',
+    'gaming, developers, game developers, programming, computer science'),
+
+(75, 'Gamma Beta Phi Society',
+    'The Gamma Beta Phi Society is a national honors and service society that brings together academically excellent students of all ages, and gives them the opportunity to participate in meaningful service projects and develop leadership skills.',
+    'leadership, mentorship, honor society, volunteerism'),
+
+(76, 'German Club',
+    'To promote the study and maintenance of German in the United States and abroad; to learn about the cultures and German-speaking countries and groups.'
+    'language, german, culture'),
+
+(77, 'Girls Who Code',
+    'The OU Girls Who Code Loop is dedicated to providing a space and platform for women and nonbinary students to explore their creativity in technical fields and learn a variety of programming langauges through a standardized curriculum we create.',
+    'coding, women, programming, code'),
+
+(78, 'Global Brigades',
+    'To empower volunteers and under-resourced communities to resolve global health and economic disparities and inspire all involved to collaboratively work towards an equal-world.',
+    'volunteering, community'),
+
+(79, 'Graduate Business Association',
+    'The Graduate Business Association strives to promote excellence in social, community, and leadership values.',
+    'graduate, business, professional development, community, social, leadership'),
+
+(80, 'Graduate Philosophical Association',
+    'The purpose of this organizationn is to promote and encourage a sense of commnity among the graduate students in the Philosohpy Department at the Unviersity of Oklahoma.',
+    'philosophy, graduate, social');
 
 --Insert Data Values into Contact Table)--
 INSERT INTO Contact(ContactID, OrganizationID, FirstName, LastName, Email, Phone, Address)
@@ -467,7 +525,52 @@ VALUES
 
 (64,64, 'N/A', 'N/A', 'engineeringstudentlife@ou.edu', 'N/A', 'N/A'),
 
-(65,65, 'N/A', 'N/A', 'oklahomaeso@gmail.com', 'N/A', '850 Jenkins Ave Norman, OK 73069');
+(65,65, 'N/A', 'N/A', 'oklahomaeso@gmail.com', 'N/A', '850 Jenkins Ave Norman, OK 73069'),
+
+(66,66, 'N/A', 'N/A', 'eclub@ou.edu', '(405)-325-3164', '850 S Jenkins Ave'),
+
+(67,67, 'N/A', 'N/A', 'startups@ou.edu', '(405)-325-2728', '201 David L. Boren Blvd. Ste. 121'),
+
+(68,68, 'Zachary', 'Cassady', 'Zachary.B.Cassady-1@ou.edu', 'N/A', '4300 Caravel dr 2604 Yukon OK 73099'),
+
+(69,69, 'N/A', 'N/A', 'fedsoc@ou.edu', 'N/A', 'N/A'),
+
+(70,70, 'N/A', 'N/A', 'president.oufsa@gmail.com', '(405)-388-0779', 'N/A'),
+
+(71,71, 'Angelique', 'Price', 'angelique.price@ou.edu', '(405)-325-3163', '900 Asp Avenue, Suite 370 Norman OK 73019'),
+
+(72,72, 'N/A', 'N/A', 'okada@ou.edu', 'N/A', '1700 Lexington Ave Norman OK 73069'),
+
+(73,73, 'N/A', 'N/A', 'adelya@ou.edu', 'N/A', 'N/A'),
+
+(74,74, 'N/A', 'N/A', 'gamedevou@gmail.com', 'N/A', 'N/A'),
+
+(75,75, 'N/A', 'N/A', 'gammabetaphi@ou.edu', 'N/A', '900 Asp Avenue OMU Room 381, #421 Norman OK 73019'),
+
+(76,76, 'Kaleigh', 'Banor', 'kaleigh.bangor@ou.edu', '(405)-325-2482', '660 Parrington Oval Norman OK 73019'),
+
+(77,77, 'N/A', 'N/A', 'gwc@groups.ou.edu', '(580)-954-7050', 'Norman OK 73019'),
+
+(78,78, 'Lauren', 'Hurd', 'lauren4hurd@gmail.com', '(405)-938-8033', '2040 Turtle Creek Way Norman OK 73071'),
+
+(79,79, 'N/A', 'N/A', 'gba@ou.edu', '(405)-325-1969', '865 Research Parkway 3rd Floor Oklahoma City OK 73104'),
+
+(80,80, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
