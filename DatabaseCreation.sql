@@ -269,15 +269,70 @@ VALUES
 
 (50, 'Computer Science Interview Preparation Club',
     'The purpose of the Organization is to prepare students for technical programming interviews.',
-    'programming, computer science, interview, professional development');
-    
+    'programming, computer science, interview, professional development'),
 
+(51, 'Computer Science Student Board',
+    'The Computer Science Student Board is a formal student leadership organization within the CS department. We plan and host social events to promote student diversity and collaboration, as well as professional events which offer invaluable networking opportunities.',
+    'computer science, leadership, professional development, networking'),
 
-    
+(52, 'Cooking Club', 
+    'The purpose of the Organization is to develop a community of students who are passionate about cooking and health, to offer opportunities for skill development, and to foster a fun, inclusive environment for all, regardless of skill level.',
+    'cooking, skill development, social, recreational'),
 
-    
-    
+(53, 'Crimison Camera Club',
+    'Providing a creative, collaborative space for those interested in film making and watching!',
+    'film, film making, social, recreational'),
 
+(54, 'Crimson Chords',
+    'The Crimson Chords is OUs premiere student-led a cappella choir. We put on two concerts each semester both on and off campus.',
+    'choir, music, social, recreational'),
+    
+(55, 'Crypto Network',
+    'OU Crypto Network aims to foster an inclusive environment where members can engage in discussions about the historical development, current trends, and future potential of cryptocurrency-related projects.',
+    'crypto, business, stocks, networking'),
+
+(56, 'Data Science and Analytics Club',
+    'The Data Science and Analytics Club is an organization that aims to connect students with a community that is passionate about DSA and to inform students about Data Science-related career opportunities.',
+    'Data Science and Analytics, Data Science, Computer Science, netowrking, professional development, programming'),
+
+(57, 'Delta Sigma Phi',
+    'Our mission is to empower and encourage our members to become better men. ' +
+    'Our vision is to become Americas leading fraternity, with an unparalleled leadership experience.',
+    'fraternity, leadership, mentorship, community'),
+
+(58, 'DEV Hub',
+    'DEV Hub is a community for students of all majors interested in software development and realted fields. ' +
+    'The club will provide a space for members to develop their skills outside the classroom through workshops, panel discussion, and long-term coding challenges.',
+    'coding, programming, software engineering, software development, professional development'),
+
+(59, 'Doctor Who Fan Club',
+    'The Doctor Who fan club club is an organization dedicated to bringing together fans of the long running, iconic science fiction show Doctor Who.',
+    'Doctor Who, television, social, recreational'),
+
+(60, 'Earthquake Engineering at the University at The University of Oklahoma',
+    'The chapters purpose is to familiarize the student body with earthquakes as a natural hazard and their impact on civil infrastructure.',
+    'engineering, earthquakes'),
+
+(61, 'East African Alliance',
+    'EAA was formed to foster service, career development, impact and community within the East African student bodyd thorugh mentoryship, service projects, and working with East African organizations to create sustainable change.',
+    'culture, professional development, east african, african american'),
+
+(62, 'Economics Club',
+    'The OU Economics Club provides a meeting place for people interested in economics. ' +
+    'We aim to enhance economic knowledge within the OU community through fun and engaging events, and we encourage the involvement of non-economic majors.',
+    'economics, social, professional development, business'),
+
+(63, 'Elite Dance Team',
+    'The Elite Dance Team is an OU student organization focused on perfecting and performing the art of dance.',
+    'dance, social, recreational'),
+
+(64, 'Engineering Student Life',
+    'Engineering Students Lifes mission is to foster an inclusive community that supports creativity, diversity of thought and provides a multitude of meaningful experiences for sutdents that encourage leadership, learning, and lifelong success.',
+    'Engineering, student life, diversity, social, professional development, stem'),
+
+(65, 'Engineering Serving Others',
+    'Engineers Serving Others at the University of Oklahoma is a student organization which utilizes the unique skill-sets of all engineering disciplines to fulfill the needs of nonprofit organizations in the Norman community and surrounding areas.',
+    'Engineering, volunteering, community');
     
 
 
@@ -382,9 +437,37 @@ VALUES
 
 (49,49, 'Andres', 'Gonzalez', 'andres.gonzalez@ou.edu', '(405)-325-3721', '202 W. Boyd St. Room 124 Norman OK 73019'),
 
-(50,50, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A');
+(50,50, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
 
+(51,51, 'N/A', 'N/A', 'N/A', 'N/A', '2500 Asp Ave Norman OK 73072'),
 
+(52,52, 'Aaron', 'Lim', 'aaron.j.lim-1@ou.edu', '(405)-650-5473', 'N/A'),
+
+(53,53, 'N/A', 'N/A', 'ousfpc@outlook.com', 'N/A', '640 Parrington Oval Wallace Old Science Rm 300 Norman OK 73019'),
+
+(54,54, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(55,55, 'N/A', 'N/A', 'crypto@ou.edu', 'N/A', 'N/A'),
+
+(56,56, 'Catherine', 'Donner', 'catherine.g.donner-1@ou.edu', 'N/A', 'N/A'),
+
+(57,57, 'N/A', 'N/A', 'ou.deltasigmaphi@gmail.com', 'N/A', 'N/A'),
+
+(58,58, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(59,59, 'Jackson', 'Weldom', 'jacksonweldon37@yahoo.com', '(405)-795-1933', 'N/A'),
+
+(60,60, 'N/A', 'N/A', 'akypriot@ou.edu', '(405)-325-5140', '202 West Boyd Street Room 334 Norman OK 73019'),
+
+(61,61, 'N/A', 'N/A', 'maura.a.mgaya-1@ou.edu', 'N/A', '2500 Asp Ave Norman OK 73072'),
+
+(62,62, 'N/A', 'N/A', 'okiueconclub@gmail.com', 'N/A', 'N/A'),
+
+(63,63, 'N/A', 'N/A', 'elitedanceou@gmail.com', 'N/A', 'N/A'),
+
+(64,64, 'N/A', 'N/A', 'engineeringstudentlife@ou.edu', 'N/A', 'N/A'),
+
+(65,65, 'N/A', 'N/A', 'oklahomaeso@gmail.com', 'N/A', '850 Jenkins Ave Norman, OK 73069');
 
 
 
