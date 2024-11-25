@@ -475,7 +475,27 @@ VALUES
 
 (100, 'Music Club',
     'A community of students that enjoy music whether that be listening, talking about, playing, or learning about it.',
-    'music, social, recreational, instruments');
+    'music, social, recreational, instruments'),
+
+(101, 'Muslim Student Association',
+    'A Muslim organization on campus dedicated to empowering Muslim leaders, raising Islamic awareness and appreciation, and unifying students.',
+    'muslim, social, unite, friendly, community, cultural'),
+
+(102, 'National Association of Black Journalists',
+    'An organization advocating for journalists of color. They provide journalists with programs and services needed to be successful within their field',
+    'social, recreational, friendly, community, cultural'),
+
+(103, 'National Council of Teachers of English',
+    'A professional student organization in the Jeannine Rainbolt College of Education aiming to create community among pre-service English teachers.',
+    'professional, english, writing, teach, community'),
+
+(104, 'National Gay Pilots Association',
+    'The NGPA is the largest organization of lesbian, gay, bisexual, transgender, and queer aviation professionals and enthusiasts from around the world.'
+    'build, support, unite, gay, pilot, fly, community'),
+
+(105, 'National Medical Device Make-A-Thon',
+    'A competition team dedicated to designing medical devices for OU 2025',
+    'competition, medical, prosthetics, biomedical, engineer');
 
 
 --Insert Data Values into Contact Table)--
@@ -679,47 +699,14 @@ VALUES
 
 (99,99, 'N/A', 'N/A', 'mun@ou.edu', 'N/A', '729 Elm Ave Farzaneh Hall Room 150 Norman OK 73019'),
 
-(100,100, 'N/A', 'N/A', 'Lyrica@ou.edu', 'N/A', '524 W Boyd St Norman OK 73019');
+(100,100, 'N/A', 'N/A', 'Lyrica@ou.edu', 'N/A', '524 W Boyd St Norman OK 73019'),
 
+(101, 101, 'N/A', 'N/A', 'muslimsofou@gmail.com', 'N/A', '900 Asp Avenue Oklahoma Memorial Union 181 Mailbox 115 Norman OK 73019'),
 
+(102, 102, 'Jay', 'Gilmore', 'jay.gilmore@ou.edu', '(405)-586-0078', '395 W Lindsey St.'),
 
+(103, 103, 'Kylee', 'Foley', 'N/A', 'N/A', 'N/A'),
 
+(104, 104, 'Wyatt', 'Grubbs', 'wyattgrubbs@ou.edu', '(469)-540-5125', 'N/A'),
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+(105, 105, 'N/A', 'N/A', 'oumdm2025@gmail.com', 'N/A', 'N/A');
