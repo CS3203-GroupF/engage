@@ -45,7 +45,7 @@ body {
     text-align: center; /* Center text in links */
 }
 
-.organizations, .about, .contact {
+.organizations, .events, .about, .contact {
     color: white; /* Button text color */
     text-decoration: none; /* Remove underline from the link */
     border-radius: 5px; /* Rounded corners */
@@ -227,6 +227,13 @@ body {
 .header {
     font-size: 2.5rem;
     margin-bottom: 20px;
+}
+.name {
+    padding: 0px 0px 0px 20px;
+}
+
+.email {
+    padding: 0px 0px 0px 20px;
 }
 
 /* This CSS seems to break some of the style, uncomment if nessessary

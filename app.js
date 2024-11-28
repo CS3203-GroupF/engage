@@ -29,7 +29,7 @@ function setNavBarHrefs() {
     setHref("organizations", "organizations.html")
     setHref("events", "events.html")
     setHref("about", "about.html")
-    setHref("contact", "contacts.html")
+    setHref("contact", "contact.html")
 }
 
 // Function to filter organizations by search input
