@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OU Engage</title>
+    <title>OU Engage - Events</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,6 +27,11 @@
             <li class="right"><button class="signIn"><a href="signin.html">Sign In</a></button></li>
         </ul>
     </nav>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <h1>Welcome to OU Events</h1>
+    </div>
 
     <h1 class="header">Upcoming Events</h1>
 
@@ -78,63 +83,22 @@
         </li>
     </ul>
 
+    <!-- Calendar Section -->
+    <div class="calendar-container">
+        <h2>Event Calendar</h2>
+        <iframe src="https://calendar.google.com/calendar/embed?src=your_calendar_id&ctz=America/Chicago" 
+                style="border: 0" 
+                width="800" 
+                height="600" 
+                frameborder="0" 
+                scrolling="no">
+        </iframe>
+    </div>
+
     <script src="app.js"></script>
-
     <script>
-        setNavBarHrefs()
-       function filterEvents() {
-    let input = document.getElementById('search-bar').value.toLowerCase();
-    let items = document.getElementsByClassName('event-item');
-    let searchWords = input.split(' ');
-    let noResults = true;
-
-    for (let i = 0; i < items.length; i++) {
-        let item = items[i];
-        let itemText = item.innerHTML.toLowerCase();
-        let match = searchWords.some(word => itemText.includes(word));
-
-        if (match) {
-            item.style.display = "";
-            noResults = false;
-        } else {
-            item.style.display = "none";
-        }
-    }
-
-    if (noResults) {
-        if (!document.getElementById('error-message')) {
-            let errorMessage = document.createElement('p');
-            errorMessage.id = 'error-message';
-            errorMessage.textContent = 'No events found.';
-            document.getElementById('event-list').appendChild(errorMessage);
-        }
-    } else {
-        let errorMessage = document.getElementById('error-message');
-        if (errorMessage) {
-            errorMessage.remove();
-        }
-    }
-}
-
-
-        // Function to filter events by selected tag
-        function filterByTag(tag) {
-            let items = document.getElementsByClassName('event-item');
-
-            for (let i = 0; i < items.length; i++) {
-                let item = items[i];
-                let itemTags = item.getAttribute('data-tags');
-
-                if (itemTags.includes(tag)) {
-                    item.style.display = "";
-                } else {
-                    item.style.display = "none";
-                }
-            }
-        }
+        setNavBarHrefs();
     </script>
-
 </body>
 
 </html>
-
