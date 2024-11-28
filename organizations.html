@@ -30,16 +30,17 @@
 
     <!-- Search bar -->
     <div class="search-container">
-        <input type="text" id="search-bar" placeholder="Search for organizations..." onkeyup="filterOrganizations()">
+        <input type="text" id="search-bar" placeholder="Search for organizations..." onkeyup="filterBySearch('organization-item')">
     </div>
 
     <!-- Tag-based filtering -->
     <div class="tag-container">
-        <button class="tag" onclick="filterByTag('Sports')">Sports</button>
-        <button class="tag" onclick="filterByTag('Technology')">Technology</button>
-        <button class="tag" onclick="filterByTag('Music')">Music</button>
-        <button class="tag" onclick="filterByTag('Art')">Art</button>
-        <button class="tag" onclick="filterByTag('Community')">Community</button>
+        <button class="tag" onclick="filterByTag('Sports', 'organization-item')">Sports</button>
+        <button class="tag" onclick="filterByTag('Technology', 'organization-item')">Technology</button>
+        <button class="tag" onclick="filterByTag('Music', 'organization-item')">Music</button>
+        <button class="tag" onclick="filterByTag('Art', 'organization-item')">Art</button>
+        <button class="tag" onclick="filterByTag('Community', 'organization-item')">Community</button>
+        <button class="tag" onclick="unfilter('organization-item')">All</button>
     </div>
 
     <!-- List of organizations (just placeholders for now) -->
@@ -55,36 +56,6 @@
 
     <script>
         setNavBarHrefs()
-        // Function to filter organizations by search input
-        function filterOrganizations() {
-            let input = document.getElementById('search-bar').value.toLowerCase();
-            let items = document.getElementsByClassName('organization-item');
-
-            for (let i = 0; i < items.length; i++) {
-                let item = items[i];
-                if (item.innerHTML.toLowerCase().includes(input)) {
-                    item.style.display = "";
-                } else {
-                    item.style.display = "none";
-                }
-            }
-        }
-
-        // Function to filter organizations by selected tag
-        function filterByTag(tag) {
-            let items = document.getElementsByClassName('organization-item');
-
-            for (let i = 0; i < items.length; i++) {
-                let item = items[i];
-                let itemTags = item.getAttribute('data-tags');
-
-                if (itemTags.includes(tag)) {
-                    item.style.display = "";
-                } else {
-                    item.style.display = "none";
-                }
-            }
-        }
     </script>
 
 </body>

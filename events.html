@@ -37,16 +37,17 @@
 
     <!-- Search bar -->
     <div class="search-container">
-        <input type="text" id="search-bar" placeholder="Search for events..." onkeyup="filterEvents()">
+        <input type="text" id="search-bar" placeholder="Search for events..." onkeyup="filterBySearch('event-item')">
     </div>
 
     <!-- Tag-based filtering -->
     <div class="tag-container">
-        <button class="tag" onclick="filterByTag('Sports')">Sports</button>
-        <button class="tag" onclick="filterByTag('Technology')">Technology</button>
-        <button class="tag" onclick="filterByTag('Music')">Music</button>
-        <button class="tag" onclick="filterByTag('Art')">Art</button>
-        <button class="tag" onclick="filterByTag('Community')">Community</button>
+        <button class="tag" onclick="filterByTag('Sports', 'event-item')">Sports</button>
+        <button class="tag" onclick="filterByTag('Technology', 'event-item')">Technology</button>
+        <button class="tag" onclick="filterByTag('Music', 'event-item')">Music</button>
+        <button class="tag" onclick="filterByTag('Art', 'event-item')">Art</button>
+        <button class="tag" onclick="filterByTag('Community', 'event-item')">Community</button>
+        <button class="tag" onclick="unfilter('event-item')">All</button>
     </div>
 
     <!-- List of events with date, time, and location -->

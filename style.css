@@ -229,6 +229,7 @@ body {
     margin-bottom: 20px;
 }
 
+/* This CSS seems to break some of the style, uncomment if nessessary
 .search-container {
     margin: 20px auto;
     width: 80%;
@@ -259,3 +260,4 @@ body {
 .tag:hover {
     background-color: rgba(255, 255, 255, 0.9);
 }
+*/

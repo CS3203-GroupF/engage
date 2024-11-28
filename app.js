@@ -31,3 +31,42 @@ function setNavBarHrefs() {
     setHref("about", "about.html")
     setHref("contact", "contacts.html")
 }
+
+// Function to filter organizations by search input
+function filterBySearch(className) {
+    let input = document.getElementById('search-bar').value.toLowerCase();
+    let items = document.getElementsByClassName(className);
+
+    for (let i = 0; i < items.length; i++) {
+        let item = items[i];
+        if (item.innerHTML.toLowerCase().includes(input)) {
+            item.style.display = "";
+        } else {
+            item.style.display = "none";
+        }
+    }
+}
+
+// Function to filter organizations by selected tag
+function filterByTag(tag, className) {
+    let items = document.getElementsByClassName(className);
+
+    for (let i = 0; i < items.length; i++) {
+        let item = items[i];
+        let itemTags = item.getAttribute('data-tags');
+
+        if (itemTags.includes(tag)) {
+            item.style.display = "";
+        } else {
+            item.style.display = "none";
+        }
+    }
+}
+
+function unfilter(className) {
+    let items = document.getElementsByClassName(className);
+    for (let i = 0; i < items.length; i++) {
+        let item = items[i];
+        item.style.display = "";
+    }
+}
