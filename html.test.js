@@ -153,7 +153,7 @@ describe('HTML Structure and Interaction Tests', () => {
         // Test that a blank password alerts the user to enter a password
         expect(signin("User", "")).toBe("Please enter a password")
         // Test that a username of null is invalid
-        expect(signin("null", "")).toBe("Invalid username")
+        expect(signin("null", "pass")).toBe("Invalid username")
         // Test that a blank form alerts the user to enter a username first
         expect(signin("", "")).toBe("Please enter a username")
         // Test that a correct form redirects properly
