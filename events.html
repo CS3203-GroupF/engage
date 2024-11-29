@@ -18,9 +18,9 @@
             <!-- Centered links -->
             <div class="center-nav">
                 <li><a id="organizations" class="organizations" href="" target="_self">Organizations</a></li>
-                <li><a id="events" class="events" href="events.html" target="_self">Events</a></li>
+                <li><a id="events" class="events" href="" target="_self">Events</a></li>
                 <li><a id="about" class="about" href="" target="_self">About</a></li>
-                <li><a class="contact" href="" target="_self">Contact</a></li>
+                <li><a id="contact" class="contact" href="" target="_self">Contact</a></li>
             </div>
 
             <!-- Sign In button on the right -->
@@ -37,51 +37,21 @@
 
     <!-- Search bar -->
     <div class="search-container">
-        <input type="text" id="search-bar" placeholder="Search for events..." onkeyup="filterEvents()">
+        <input type="text" id="search-bar" placeholder="Search for events..." onkeyup="filterBySearch('event-item')">
     </div>
 
     <!-- Tag-based filtering -->
     <div class="tag-container">
-        <button class="tag" onclick="filterByTag('Sports')">Sports</button>
-        <button class="tag" onclick="filterByTag('Technology')">Technology</button>
-        <button class="tag" onclick="filterByTag('Music')">Music</button>
-        <button class="tag" onclick="filterByTag('Art')">Art</button>
-        <button class="tag" onclick="filterByTag('Community')">Community</button>
+        <button class="tag" onclick="filterByTag('Sports', 'event-item')">Sports</button>
+        <button class="tag" onclick="filterByTag('Technology', 'event-item')">Technology</button>
+        <button class="tag" onclick="filterByTag('Music', 'event-item')">Music</button>
+        <button class="tag" onclick="filterByTag('Art', 'event-item')">Art</button>
+        <button class="tag" onclick="filterByTag('Community', 'event-item')">Community</button>
+        <button class="tag" onclick="unfilter('event-item')">All</button>
     </div>
 
     <!-- List of events with date, time, and location -->
-    <ul id="event-list">
-        <li class="event-item" data-tags="Sports">
-            <h2>OU Football Game</h2>
-            <p>Date: October 28, 2024</p>
-            <p>Time: 3:00 PM</p>
-            <p>Location: OU Stadium</p>
-        </li>
-        <li class="event-item" data-tags="Technology">
-            <h2>Tech Talk: Innovations in AI</h2>
-            <p>Date: November 5, 2024</p>
-            <p>Time: 1:00 PM</p>
-            <p>Location: Tech Hall</p>
-        </li>
-        <li class="event-item" data-tags="Music">
-            <h2>OU Jazz Concert</h2>
-            <p>Date: November 12, 2024</p>
-            <p>Time: 7:00 PM</p>
-            <p>Location: Music Auditorium</p>
-        </li>
-        <li class="event-item" data-tags="Art">
-            <h2>Art Exhibition: OU Creatives</h2>
-            <p>Date: November 20, 2024</p>
-            <p>Time: 10:00 AM</p>
-            <p>Location: Art Gallery</p>
-        </li>
-        <li class="event-item" data-tags="Community">
-            <h2>Community Volunteer Drive</h2>
-            <p>Date: December 1, 2024</p>
-            <p>Time: 9:00 AM</p>
-            <p>Location: Community Center</p>
-        </li>
-    </ul>
+    <ul id="event-list"></ul>
 
     <!-- Calendar Section -->
     <div class="calendar-container">
@@ -98,6 +68,7 @@
     <script src="app.js"></script>
     <script>
         setNavBarHrefs();
+        populateEventLists();
     </script>
 </body>
 
