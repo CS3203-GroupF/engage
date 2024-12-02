@@ -54,9 +54,62 @@ body {
     font-weight: bold;
 }
 
-.organizations:hover, .about:hover, .contact:hover {
+.organizations:hover, .about:hover, .contact:hover, .events:hover {
     background-color:  rgba(216, 216, 216, 0.675); /* Darker color on hover */
 }
+
+/* Event list styles */
+#event-list {
+    list-style: none;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+.event-item {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.event-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event-item h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.event-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Calendar section styles */
+.calendar-container {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.calendar-container h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.calendar-container iframe {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 .logo {
     width: 200px; /* Adjust width as needed */
@@ -234,6 +287,40 @@ body {
     padding: 0px 0px 0px 20px;
 }
 
+/* Content Section Styling */
+.content-section {
+    background-color: white; /* White background for contrast */
+    margin: 30px auto; /* Center the section */
+    padding: 30px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners for modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    max-width: 800px; /* Restrict maximum width for readability */
+    text-align: justify; /* Align text for a clean, professional look */
+}
+
+/* Content Header Styling */
+.content-section h2 {
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    color: #343a40; /* Dark gray for professional appearance */
+    text-align: center; /* Center the header */
+    margin-bottom: 20px; /* Add spacing below the header */
+}
+
+/* Paragraph Styling */
+.content-section p {
+    font-size: 1.2rem; /* Slightly larger font for readability */
+    color: #555; /* Subtle gray for better readability */
+    line-height: 1.8; /* Improve spacing between lines */
+    margin-bottom: 15px; /* Add spacing between paragraphs */
+}
+
+/* Add Hover Effect for Interactive Text */
+.content-section p:hover {
+    background-color: #f4f4f9; /* Subtle background highlight */
+    transition: background-color 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+
 /* This CSS seems to break some of the style, uncomment if nessessary
 .search-container {
     margin: 20px auto;
@@ -266,3 +353,88 @@ body {
     background-color: rgba(255, 255, 255, 0.9);
 }
 */
+.contact-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two rows, three columns */
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    height: 200px; /* Increased height for longer content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-card h2 {
+    margin: 5px 0;
+    color: #343a40;
+    font-size: 1.4rem; /* Adjusted font size */
+    font-weight: bold;
+    word-wrap: break-word; /* Break long names onto new lines */
+}
+
+.contact-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+    word-wrap: break-word; /* Prevent overflow for long emails */
+}
+
+.contact-card a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.contact-header {
+    text-align: center;
+    font-size: 2rem;
+    color: #343a40;
+    margin: 50px 0 20px; /* Added extra margin to move it down */
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .contact-list {
+        grid-template-columns: repeat(2, 1fr); /* Adjust to two columns for medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-list {
+        grid-template-columns: repeat(1, 1fr); /* Adjust to one column for small screens */
+    }
+
+    .contact-card {
+        padding: 15px;
+        height: auto;
+    }
+
+    .contact-header {
+        font-size: 1.5rem;
+    }
+}

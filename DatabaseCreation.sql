@@ -199,12 +199,12 @@ VALUES
 
 (35, 'Boomer Rocket Team',
     'OU Rocket Team Club is an interdisciplinary academic team in which students design, build, and launch high powered rockets. ' +
-    'The team trains and certifies members to build rockets, competes nationally in various events, and takes on experimental independent projects.'
+    'The team trains and certifies members to build rockets, competes nationally in various events, and takes on experimental independent projects.',
     'competition teams, engineering, rockets, stem, interdisciplinary'),
     
 (36, 'Boxing Enthusiasts',
     'We are an organization designed to bring students together through the sport of boxing. ' +
-    'We are dedicated to bringing together fans and boxers from all walks of life to celebrate the sport we love.'
+    'We are dedicated to bringing together fans and boxers from all walks of life to celebrate the sport we love.',
     'boxing, sports, recreational, social'),
 
 (37, 'Business Law Society',
@@ -375,7 +375,7 @@ VALUES
     'leadership, mentorship, honor society, volunteerism'),
 
 (76, 'German Club',
-    'To promote the study and maintenance of German in the United States and abroad; to learn about the cultures and German-speaking countries and groups.'
+    'To promote the study and maintenance of German in the United States and abroad; to learn about the cultures and German-speaking countries and groups.',
     'language, german, culture'),
 
 (77, 'Girls Who Code',
@@ -490,12 +490,112 @@ VALUES
     'professional, english, writing, teach, community'),
 
 (104, 'National Gay Pilots Association',
-    'The NGPA is the largest organization of lesbian, gay, bisexual, transgender, and queer aviation professionals and enthusiasts from around the world.'
+    'The NGPA is the largest organization of lesbian, gay, bisexual, transgender, and queer aviation professionals and enthusiasts from around the world.',
     'build, support, unite, gay, pilot, fly, community'),
 
 (105, 'National Medical Device Make-A-Thon',
     'A competition team dedicated to designing medical devices for OU 2025',
-    'competition, medical, prosthetics, biomedical, engineer');
+    'competition, medical, prosthetics, biomedical, engineer'),
+
+(106, 'National Pan-Helenic Council',
+    'A collaborative organization of nine historically African American, international Greek lettered fraternities and sororities',
+    'Frat, Sorority, community, greek, african'),
+
+(107, 'National Society of Black Engineers',
+    'The NSBE aims to increase the number of culturally responsible black engineers who excel academically, succeed professionally, and positively impact the community.',
+    'Black, culture, engineer, community, professional, academic'),
+
+(108, 'Native American Law Student Association',
+    'An organization for law students interested in Native American law or Native American issues',
+    'Native, culture, law, academic, community, professional'),
+
+(109, 'Nautical ROTC',
+    'This organization encompasses the Naval RoTC company on the University of Oklahoma Campus.',
+    'Navy, Nautical, ROTC, military, community, fitness'),
+
+(110, 'Navigators',
+    'An on-campus non-denominational Christian ministry with a program of small group bible study, large group fellowship both on campus and with a local church, and one-one-one evangelism, discipleship, and mentorship.',
+    'Christ, ministry, culture, community, jesus, bible'),
+
+(111, 'Nepalese Student Association',
+    'Their mission is to enhance understanding of Nepal and promote peace and harmony among the various cultures within the University of Oklahoma',
+    'culture, community, outreach, nepal'),
+
+(112, 'Neurobiology Club',
+    'An inclusive community of students passionate about understanding the mysteries of neurobiology',
+    'neuro', 'brain', 'science', 'inclusion', 'community'),
+
+(113, 'OBI OUtreach',
+    'This organization works with Oklahoma Blood Institute to recruit donors and get students involved with blood donations',
+    'blood', 'donation', 'recruit'),
+
+(114, 'Obviously Unrehearsed Improv!',
+    'An OU Comedy troupe focused on recruiting and showing off. All members welcome and auditions are on a semester basis.',
+    'Theater', 'theatre', 'improv', 'audition', 'comedy'),
+
+(115, 'Office of Student Life',
+    'The mission of Student Life is to guide students in realizing academic, professional and personal goals as they progress toward graduation and beyond',
+    'student', 'academic', 'professional', 'goals'),
+
+(116, 'Okie Belles',
+    'The purpose of Okie Belles is to advocate for sisterhood, leadership, and service. Our mission is to make a difference around us by planting the seeds of service for the community to reap the benefits.',
+    'community', 'leadership', 'sister', 'service', 'social'),
+
+(117, 'Oklahoma Aspiring Educators Association',
+    'Oklahoma Aspiring Educators Association is a pre-professional organization of undergraduate and graduate students currently preparing for careers in education',
+    'teaching', 'undergrad', 'graduate', 'education'),
+
+(118, 'Oklahoma Intercollegiate Legislature',
+    'A five-day mock legislative session in the Oklahoma State Capitol once a semester consisting of delegations from over twenty universities across the state. It also includes a journalism competition, a moot court competition and model executive branch',
+    'event', 'legislature', 'mock', 'journal', 'court'),
+
+(119, 'Oklahoma Law Review',
+    'The Review is published by a student editorial board, operating with the advice of faculty. The Review contains lead articles written by scholars and practitioners, as well as student notes and comments. Students may earn membership through achieving a high academic standing or being selected through a writing competition.',
+    'law', 'student', 'editorial', 'writing'),
+
+(120, 'Oklahoma Votes',
+    'Oklahoma Votes is a campus-wide initiative to encourage students to register to vote and to participate in local, state, and national elections.',
+    'vote', 'student', 'government', 'register'),
+
+(121, 'Oklahoma Weather Lab',
+    'The Oklahoma Weather Lab is OUs student forecasting organization. Here, students get hands on weather forecasting experience at our nightly forecast shifts 6-8p M-F.',
+    'weather', 'meteorology', 'forecast', 'OWL', 'storm'),
+
+(122, 'Omani Students Association',
+    'OSAs function is to raise awareness in the Norman community in general, and OU community in particular about Omans rich cultural heritage, traditional values, prevailing local customs and deep-rooted history',
+    'culture', 'community', 'student-life', 'international'),
+
+(123, 'Orthodox Christian Fellowship',
+    'OCF is the official collegiate campus ministry program under the Assembly of Canonical Orthodox Bishops of the United States of America. The goal of OCF is to connect Orthodox college students through social events.',
+    'Christ', 'fellowship', 'ministry', 'jesus', 'social', 'beliefs'),
+
+(124, 'OU Badminton Club',
+    'The OU Badminton Club holds normal practices in the Sarkeys Fitness Center all year round. Badminton courts are set up and available every day. All currently registered students can enter the gym at no charge.',
+    'sports', 'badminton', 'racket', 'sarkeys'),
+
+(125, 'OU Clay Target Club',
+    'All skill levels welcome. We are a clay target shooting club participating in weekly practices including trap, skeet, and sporting clay competitions. Practice is held at a local outdoor gun range',
+    'shooting', 'clay', 'social', 'sports'),
+
+(126, 'OU Climbing Club',
+    'The OU Climbing Club is dedicated to providing climbing opportunities for OU students at all levels of athleticism and skills, including competitive opportunities through the OU Climbing Team. This includes both indoor and outdoor climbing, engagement with the climbing community, and support for the outdoor environments that make climbing possible.',
+    'climb', 'rock', 'social', 'community', 'sports'),
+
+(127, 'OU Cousins',
+    'Through this program, students are matched according to hobbies, majors, and countries of special interest. Each International or exchange student is matched with one or two American students and invited to participate in monthly events.',
+    'international', 'social', 'bonding', 'mentor'),
+
+(128, 'OU Food Pantry',
+    'The University of Oklahoma Food Pantrys mission is to contribute to the overall health and wellness of the OU campus community by providing free, supplemental food assistance to OU Norman Campus students, faculty and staff.',
+    'food', 'volunteer', 'social', 'donations'),
+
+(129, 'OU Mens Rugby Club',
+    'Enhance the Student-Athlete Club Experience at Oklahoma University for both Young Men and Young Women by providing the best collegiate coaching and facilities, by competing at the highest level of National and International competition, by providing scholarships, and by supporting the athletes and social members academically',
+    'sports', 'rugby', 'social', 'competitive'),
+
+(130, 'OU Mens Ultimate Frisbee Club',
+    'the Oklahoma Apes of Wrath are dedicated to representing the University of Oklahoma to the best of our abilities as we travel across the region competing in Ultimate Frisbee tournaments. We practice Monday and Friday 6-8pm on the south side of the Intramural Fields. All skill levels welcome.',
+    'sports', 'social', 'competitive', 'frisbee');
 
 
 --Insert Data Values into Contact Table)--
@@ -709,4 +809,54 @@ VALUES
 
 (104, 104, 'Wyatt', 'Grubbs', 'wyattgrubbs@ou.edu', '(469)-540-5125', 'N/A'),
 
-(105, 105, 'N/A', 'N/A', 'oumdm2025@gmail.com', 'N/A', 'N/A');
+(105, 105, 'N/A', 'N/A', 'oumdm2025@gmail.com', 'N/A', 'N/A'),
+
+(106, 106, 'N/A', 'N/A', 'ounphc405@gmail.com', 'N/A', '900 Asp Ave Suite 370 Norman, OK 73019'),
+
+(107, 107, 'N/A', 'N/A', 'nsbe@ou.edu', 'N/A', 'N/A'),
+
+(108, 108, 'N/A', 'N/A', 'nalsa@ou.edu', '(214)-995-5082', '300 W Timberdell Rd Norman, OK 73019'),
+
+(109, 109, 'N/A', 'N/A', 'navalrotc@ou.edu', '(405)-325-2021', '290 West Brooks Street Room 116 NORMAN, OK 73019'),
+
+(110, 110, 'Adam', 'Brigan', 'adam.brigan@navigators.org', '(918)-557-5030', '1602 Homeland Avenue Norman , OK 73072'),
+
+(111, 111, 'N/A', 'N/A', 'nsa@ou.edu', '(572)-910-2529', 'N/A'),
+
+(112, 112, 'Catori', 'Roberts', 'catori.roberts@ou.edu', '(405)-965-3324', 'N/A'),
+
+(113, 113, 'N/A', 'N/A', 'obioutreach@gmail.com', 'N/A', 'N/A'),
+
+(114, 114, 'Chris', 'Lloyd', 'christopher.loyd@ou.edu', '(918)-413-6040', '1601 E Imhoff Rd Unit #4013 Norman, OK 73071'),
+
+(115, 115, 'N/A', 'N/A', 'N/A', '(405)-325-3163', '900 Asp Ave Suite 370 Norman, OK 73019'),
+
+(116, 116, 'N/A', 'N/A', 'okiebellesofficers@gmail.com', 'N/A', 'N/A'),
+
+(117, 117, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(118, 118, 'Marley', 'Hutchins', 'marley.hutchins@ou.edu', 'N/A', 'N/A'),
+
+(119, 119, 'N/A', 'N/A', 'oklahomalawreview1@gmail.com', '(405)-325-5192', '300 Timberdell Road Norman, OK 73019'),
+
+(120, 120, 'N/A', 'N/A', 'voting@ou.edu', 'N/A', 'N/A'),
+
+(121, 121, 'N/A', 'N/A', 'owl@ou.edu', 'N/A', 'N/A'),
+
+(122, 122, 'Abdullah', 'Alraisi', 'Abdullah.f.alraisi@ou.edu', 'N/A', 'N/A'),
+
+(123, 123, 'N/A', 'N/A', 'kqpowers@ou.edu', '(405)-314-0602', '630 Okmulgee Street Norman, OK 73071'),
+
+(124, 124, 'N/A', 'N/A', 'badminton_exec@groups.ou.edu', 'N/A', 'N/A'),
+
+(125, 125, 'N/A', 'N/A', 'OklahomaCTT@gmail.com', '(214) 862-8600', 'N/A'),
+
+(126, 126, 'Bradley', 'Vanbebber', 'bradley.r.vanbebber-1@ou.edu', 'N/A', 'N/A'),
+
+(127, 127, 'N/A', 'N/A', 'oucousins@ou.edu', '(405)-325-3163', '900 Asp Ave Suite 428 Norman, OK 73019-4054'),
+
+(128, 128, 'N/A', 'N/A', 'oupantry@ou.edu', '(405)-325-2044', '331 Cate Center Dr Norman, OK 73072'),
+
+(129, 129, 'Curt', 'Hammock', 'curt.c.hammock-1@ou.edu', '(405)-326-9055', '509-553 GT Blankenship Blvd Norman, OK 73072'),
+
+(130, 130, 'N/A', 'N/A', 'okultimate@gmail.com', 'N/A', 'N/A');
