@@ -58,6 +58,58 @@ body {
     background-color:  rgba(216, 216, 216, 0.675); /* Darker color on hover */
 }
 
+/* Event list styles */
+#event-list {
+    list-style: none;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+.event-item {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.event-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event-item h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.event-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Calendar section styles */
+.calendar-container {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.calendar-container h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.calendar-container iframe {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 .logo {
     width: 200px; /* Adjust width as needed */
