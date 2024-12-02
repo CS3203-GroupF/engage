@@ -91,7 +91,7 @@ function getOrganizationAmount() {
 
 // placeholder to simulate retrieving org from DB
 function getOrganization(i) {
-    const orgs = ['OU Football Club', 'OU Tech Enthusiasts', 'OU Choir', 'OU Art Collective', 'OU Volunteer Group'];
+    const orgs = ['OU Badminton Club', 'Institute of Eletrical and Electronic Engineers', 'Crimson Chords', 'Indigenous Art Forms', 'African Student Association'];
     return orgs[i];
 }
 
@@ -102,27 +102,35 @@ function getOrgDataTag(i) {
 }
 
 function getOrgDesc(i) {
-    const orgDesc = ['Sports', 'Technology', 'Music', 'Art', 'Community'];
+    const orgDesc = ['The OU Badminton Club holds normal practices in the Sarkeys Fitness Center all year round.Badminton courts are set up and available every day.All currently registered students can enter the gym at no charge.',
+        'IEEE is a dynamic and inclusive organization dedicated to advancing technology and fostering professional development among engineering students.',
+        'The Crimson Chords is OUs premiere student-led a cappella choir. We put on two concerts each semester both on and off campus.',
+        'Indigenous Art Forms offers a space on campus for students to practice, sustain, and revitalize various Indigenous Art Forms.',
+        'The African Student Association at the University of Oklahoma was founded to promote unity amongst African students in the Diaspora, create a network that supports African students, educate the community on the African continent, and ultimately celebrate African culture on campus.'];
     return orgDesc[i];
 }
 
 function getOrgContactName(i) {
-    const orgName = ['Henry', 'Henry 2', '', 'Henry 4', 'Henry 5'];
+    const orgName = ['', '', '', 'Cianne Bennet', 'Oghenekaro Imieye'];
     return orgName[i];
 }
 
 function getEmail(i) {
-    const orgEmail = ['Henry@gmail', 'Henry 2@gmail', '', 'Henry 4@gmail', 'Henry 5@gmail'];
+    const orgEmail = ['badminton_exec@groups.ou.edu', 'kbreynolds@ou.edu', '', 'graycianne.m.bennet-1@ou.edu', 'oghenekaro.o.imieye-1@ou.edu'];
     return orgEmail[i];
 }
 
 function getPhoneNumber(i) {
-    const orgNumber = ['111', '222', '', '444', '555'];
+    const orgNumber = ['', '(951)-764-4980', '', '', '(405)-888-9637'];
     return orgNumber[i];
 }
 
 function getAddr(i) {
-    const orgAddr = ['111 Place', '222 Place', '', '444 Place', '555 Place'];
+    const orgAddr = ['',
+        '865 Asp Ave Felgar Hall Norman OK 73019',
+        '',
+        '660 Parrington Oval Norman OK 73019',
+        '900 Asp Avenue, OMU Room 181 #147 Norman, OK 73019 USA'];
     return orgAddr[i];
 }
 
