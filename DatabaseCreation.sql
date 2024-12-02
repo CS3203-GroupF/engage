@@ -98,6 +98,9 @@ VALUES
     'This is the Alpha Eta Rho - Beta Chi chapter at OU. Alpha Eta Rho is a professional collegiate aviation fraternity founded in 1929, dedicated to fostering, and mentoring students that have a common interest in the field of aviation. ' + 
     'It is a coed fraternity that emphasizes mentorship, professional development, and leadership potential amongst students within the aviation industry. ' +
     'Alpha Eta Rho welcomes and encourages a diverse background of individuals to participate in their organization!', 
+
+    'Greek Life, Aviation, Fraternity, mentorship, professional development, leadership');
+
     'Greek Life, Aviation, Fraternity, mentorship, professional development, leadership'),
 
 (13, 'Alpha Gamma Delta',
@@ -496,7 +499,6 @@ VALUES
 (105, 'National Medical Device Make-A-Thon',
     'A competition team dedicated to designing medical devices for OU 2025',
     'competition, medical, prosthetics, biomedical, engineer');
-
 
 --Insert Data Values into Contact Table)--
 INSERT INTO Contact(ContactID, OrganizationID, FirstName, LastName, Email, Phone, Address)
