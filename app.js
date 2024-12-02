@@ -75,7 +75,7 @@ function unfilter(className) {
 
 // placeholder to simulate retrieving size from DB
 function getOrganizationAmount() {
-    return 5;
+    return 9;
 }
 
 /*function getData(dataType, i) {
@@ -91,13 +91,13 @@ function getOrganizationAmount() {
 
 // placeholder to simulate retrieving org from DB
 function getOrganization(i) {
-    const orgs = ['OU Badminton Club', 'Institute of Eletrical and Electronic Engineers', 'Crimson Chords', 'Indigenous Art Forms', 'African Student Association'];
+    const orgs = ['OU Badminton Club', 'Institute of Eletrical and Electronic Engineers', 'Crimson Chords', 'Indigenous Art Forms', 'African Student Association', 'Billiards Club', 'Boxing Enthusiasts', 'India Student Association', 'Music Club'];
     return orgs[i];
 }
 
 // placeholder to simulate retrieving tag from DB
 function getOrgDataTag(i) {
-    const orgTag = ['Sports', 'Technology', 'Music', 'Art', 'Community'];
+    const orgTag = ['Sports', 'Technology', 'Music', 'Art', 'Community', 'Sports', 'Sports', 'Community', 'Music'];
     return orgTag[i];
 }
 
@@ -106,22 +106,26 @@ function getOrgDesc(i) {
         'IEEE is a dynamic and inclusive organization dedicated to advancing technology and fostering professional development among engineering students.',
         'The Crimson Chords is OUs premiere student-led a cappella choir. We put on two concerts each semester both on and off campus.',
         'Indigenous Art Forms offers a space on campus for students to practice, sustain, and revitalize various Indigenous Art Forms.',
-        'The African Student Association at the University of Oklahoma was founded to promote unity amongst African students in the Diaspora, create a network that supports African students, educate the community on the African continent, and ultimately celebrate African culture on campus.'];
+        'The African Student Association at the University of Oklahoma was founded to promote unity amongst African students in the Diaspora, create a network that supports African students, educate the community on the African continent, and ultimately celebrate African culture on campus.',
+        'We welcome anyone who wants to have a good time and make freinds playing pool.',
+        'We are an organization designed to bring students together through the sport of boxing.',
+        'India Student Association exists to bring together the various cultural diversities of Indian international students and celebrate it.',
+        'A community of students that enjoy music whether that be listening, talking about, playing, or learning about it.'];
     return orgDesc[i];
 }
 
 function getOrgContactName(i) {
-    const orgName = ['', '', '', 'Cianne Bennet', 'Oghenekaro Imieye'];
+    const orgName = ['', '', '', 'Cianne Bennet', 'Oghenekaro Imieye', '', '', '',''];
     return orgName[i];
 }
 
 function getEmail(i) {
-    const orgEmail = ['badminton_exec@groups.ou.edu', 'kbreynolds@ou.edu', '', 'graycianne.m.bennet-1@ou.edu', 'oghenekaro.o.imieye-1@ou.edu'];
+    const orgEmail = ['badminton_exec@groups.ou.edu', 'kbreynolds@ou.edu', '', 'graycianne.m.bennet-1@ou.edu', 'oghenekaro.o.imieye-1@ou.edu', '', '', 'indiastudentassociation@ou.edu', 'Lyrica@ou.edu'];
     return orgEmail[i];
 }
 
 function getPhoneNumber(i) {
-    const orgNumber = ['', '(951)-764-4980', '', '', '(405)-888-9637'];
+    const orgNumber = ['', '(951)-764-4980', '', '', '(405)-888-9637', '', '', '(405)-845-6032', ''];
     return orgNumber[i];
 }
 
@@ -130,7 +134,11 @@ function getAddr(i) {
         '865 Asp Ave Felgar Hall Norman OK 73019',
         '',
         '660 Parrington Oval Norman OK 73019',
-        '900 Asp Avenue, OMU Room 181 #147 Norman, OK 73019 USA'];
+        '900 Asp Avenue, OMU Room 181 #147 Norman, OK 73019 USA',
+        '',
+        '',
+        '900 Asp Ave Norman, OK 73071',
+        '395 W lindsey St'];
     return orgAddr[i];
 }
 
