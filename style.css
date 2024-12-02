@@ -80,7 +80,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.event-item h3 {
+.event-item h2 {
     margin: 0 0 10px;
     font-size: 1.5rem;
     color: #007bff;
@@ -302,17 +302,35 @@ body {
 /* Organization list styles */
 #organization-list {
     list-style: none;
-    padding: 0;
     margin: 20px auto;
-    width: 60%;
-    text-align: center;
+    padding: 0;
+    max-width: 800px;
 }
 
 .organization-item {
-    font-size: 18px;
-    padding: 10px;
-    margin: 10px 0;
-    border-bottom: 1px solid #ddd;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.organization-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.organization-item h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.organization-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
 }
 
 .organization-item:last-child {
