@@ -1,31 +1,30 @@
---Delete Contact Table from the the database if it does not exist as specified--
+-- ensure that the primary keys actually work lol --
+PRAGMA foreign_keys = ON;
+
+-- Delete Contact Table from the the database if present already --
 DROP TABLE IF EXISTS Contact;
---Delete Organization Table from the the database if it does not exist as specified--
+-- Delete Organization Table from the the database if present already --
 DROP TABLE IF EXISTS Organization;
 
 --Create the Organization Table and Attributes--
-CREATE TABLE Organization 
-(
-    OrganizationID INT,
-    OrganizationName VARCHAR(500),
-    OrganizationDescription VARCHAR(1000),
-    OrganizationKeywords VARCHAR(500),
-
-    PRIMARY KEY(OrganizationID)
+CREATE TABLE Organization (
+    OrganizationID INTEGER PRIMARY KEY,
+    OrganizationName TEXT,
+    OrganizationDescription TEXT,
+    OrganizationKeywords TEXT
 );
 
 --Create the Contact Table and Attributes--
-CREATE TABLE Contact
-(
-    ContactID INT,
-    OrganizationID INT,
-    FirstName VARCHAR(1000),
-    LastName VARCHAR(1000),
-    Email VARCHAR(1000),
-    Phone VARCHAR(1000),
-    Address VARCHAR(1000),
+CREATE TABLE Contact (
+    ContactID INTEGER PRIMARY KEY,
+    OrganizationID INTEGER,
+    FirstName TEXT,
+    LastName TEXT,
+    Email TEXT,
+    Phone TEXT,
+    Address TEXT,
 
-    PRIMARY KEY(ContactID),
+    -- hint that the org id is talking about an organization --
     FOREIGN KEY (OrganizationID) REFERENCES Organization(OrganizationID)
 );
 
