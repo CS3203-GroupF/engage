@@ -5,52 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OU Engage</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <!-- Logo on the left -->
+                <li><img src="images/EngageLogo.png" class="logo" alt="OU Engage Logo"></li>
 
-    <nav class="navbar">
-        <ul>
-            <!-- Logo on the left -->
-            <li><img src="images/EngageLogo.png" class="logo"></li>
+                <!-- Centered links -->
+                <div class="center-nav">
+                    <li><a id="organizations" class="organizations" href="#organizations" target="_self">Organizations</a></li>
+                    <li><a id="events" class="events" href="#events" target="_self">Events</a></li>
+                    <li><a id="about" class="about" href="#about" target="_self">About</a></li>
+                    <li><a id="contact" class="contact" href="#contact" target="_self">Contact</a></li>
+                </div>
 
-            <!-- Centered links -->
-            <div class="center-nav">
-            <li><a id="organizations" class="organizations" href="" target="_self">Organizations</a></li>
-            <li><a id="events" class="events" href="" target="_self">Events</a></li>
-            <li><a id="about" class="about" href="" target="_self">About</a></li>
-            <li><a id="contact" class="contact" href="" target="_self">Contact</a></li>
+                <!-- Sign In button on the right -->
+                <li class="right"><button class="signIn"><a href="signin.html">Sign In</a></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="top-half">
+            <h1 class="header">Contact Rengage</h1>
+        </div>
+        <section class="content-section contact-list" id="contact">
+            <div class="contact-card">
+                <h2 class="name">Barrett Ray</h2>
+                <p class="email">Email: <a href="mailto:barretray@ou.edu">barretray@ou.edu</a></p>
             </div>
+            <div class="contact-card">
+                <h2 class="name">Benjamin Cruickshank</h2>
+                <p class="email">Email: <a href="mailto:Benjamin.T.Cruickshank-1@ou.edu">Benjamin.T.Cruickshank-1@ou.edu</a></p>
+            </div>
+            <div class="contact-card">
+                <h2 class="name">Carson Brauer</h2>
+                <p class="email">Email: <a href="mailto:Carson.G.Brauer-1@ou.edu">Carson.G.Brauer-1@ou.edu</a></p>
+            </div>
+            <div class="contact-card">
+                <h2 class="name">Henry Ison</h2>
+                <p class="email">Email: <a href="mailto:Henry.T.Ison-1@ou.edu">Henry.T.Ison-1@ou.edu</a></p>
+            </div>
+            <div class="contact-card">
+                <h2 class="name">Kyle Tarczon</h2>
+                <p class="email">Email: <a href="mailto:kyle.tarczon@ou.edu">kyle.tarczon@ou.edu</a></p>
+            </div>
+            <div class="contact-card">
+                <h2 class="name">Mitchell Tawk</h2>
+                <p class="email">Email: <a href="mailto:Mitchell.M.Tawk-1@ou.edu">Mitchell.M.Tawk-1@ou.edu</a></p>
+            </div>
+            <div class="contact-card">
+                <h2 class="name">Shiloh Sells</h2>
+                <p class="email">Email: <a href="mailto:shiloh.h.sells@ou.edu">shiloh.h.sells@ou.edu</a></p>
+            </div>
+        </section>
+    </main>
 
-            <!-- Sign In button on the right -->
-            <li class="right"><button class="signIn"><a href="signin.html">Sign In</a></button></li>
-        </ul>
-    </nav>
-
-
-
-    <h1 class="header">Contact Rengage</h1>
-    <h2 class="name">Barrett Ray</h2>
-    <p class="email">Email: <a href="mailto:%20barretray@ou.edu">barretray@ou.edu</a></p>
-    <h2 class="name">Benjamin Cruickshank</h2>
-    <p class="email">Email: <a href="mailto:%20Benjamin.T.Cruickshank-1@ou.edu">Benjamin.T.Cruickshank-1@ou.edu</a></p>
-    <h2 class="name">Carson Brauer</h2>
-    <p class="email">Email: <a href="mailto:%20Carson.G.Brauer-1@ou.edu">Carson.G.Brauer-1@ou.edu</a></p>
-    <h2 class="name">Henry Ison</h2>
-    <p class="email">Email: <a href="mailto:%20Henry.T.Ison-1@ou.edu">Henry.T.Ison-1@ou.edu</a></p>
-    <h2 class="name">Kyle Tarczon</h2>
-    <p class="email">Email: <a href="mailto:%20kyle.tarczon@ou.edu">kyle.tarczon@ou.edu</a></p>
-    <h2 class="name">Mitchell Tawk</h2>
-    <p class="email">Email: <a href="mailto:%20Mitchell.M.Tawk-1@ou.edu">Mitchell.M.Tawk-1@ou.edu</a></p>
-    <h2 class="name">Shiloh Sells</h2>
-    <p class="email">Email: <a href="mailto:%20shiloh.h.sells@ou.edu">shiloh.h.sells@ou.edu</a></p>
-
-    <script src="app.js"></script>
-
+    <footer>
+        <p>&copy; 2024 OU Engage. All Rights Reserved.</p>
+    </footer>
+    <script src="app.js"></script> 
     <script>
-        setNavBarHrefs()
+              setNavBarHrefs()
     </script>
-
-
 </body>
 </html>
