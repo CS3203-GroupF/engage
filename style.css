@@ -230,10 +230,26 @@ body {
     font-size: 28px;
 }
 
+.organization-link {
+    text-decoration: none;
+    color: #005dc0; /* Adjust to any preferred color */
+    font-weight: bold;
+}
+
+.organization-link:hover {
+    text-decoration: underline;
+    color: #004691; /* Slightly darker shade */
+}
+
+.link-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* Header styles */
 .header {
     text-align: center;
-    color: #343a40;
+    color: #1f2327;
     margin-top: 20px;
     font-size: 36px;
 }
