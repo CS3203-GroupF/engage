@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "\n            INSERT INTO orgs (org_id, org_name, member_ct, descr, keywords)\n            VALUES ($1, $2, $3, $4, $5)\n            ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 5
+    },
+    "nullable": []
+  },
+  "hash": "bb3ec40cd77317b61edb21f378de1e909be3ae3dc9ddabf423bd7a827a0034b4"
+}
