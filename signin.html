@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OU Engage</title>
+    <title>OU Engage - Sign In</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
+
 <body>
-    <form id="form" onsubmit="return false;">
-        <label for="username">Username:</label>
-        <input type="text" id="username" />
-        <label for="password">Password:</label>
-        <input type="text" id="password" />
-        <input type="submit" onclick="signin();" />
-    </form>
+    <!-- Centering the form -->
+    <div class="form-container">
+        <h2 class="header">Sign In</h2>
+        <form id="form" onsubmit="return false;">
+            <label for="username">Username:</label>
+            <input type="text" id="username" class="form-input" placeholder="Enter your username" />
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" class="form-input" placeholder="Enter your password" />
+            
+            <input type="submit" class="submit-btn" onclick="signin();" value="Sign In" />
+        </form>
+    </div>
 
-    
     <script src="app.js"></script>
-
-
 </body>
 </html>
