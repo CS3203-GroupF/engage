@@ -28,7 +28,7 @@ CREATE TABLE Contact (
     FOREIGN KEY (OrganizationID) REFERENCES Organization(OrganizationID)
 );
 
---Insert Data Values into Organization Table)--
+--Insert Data Values into Organization Table--
 INSERT INTO Organization(OrganizationID, OrganizationName, OrganizationDescription, OrganizationKeywords)
 VALUES
 (1, 'Academic Advisor Training', 'OU Academic Advisor professional development training and enrichment seminars.', 'Academic Advisor, Professional, Development'),
@@ -41,7 +41,8 @@ VALUES
     'and the expectations they should have in their advisor, by equipping students, both graduate and undergraduate, with the resources to navigate ' +
     'college, by promoting a welcoming environment to those less represented in the ARRC and to make sure international students have an enriching experience, ' +
     'by promoting the ARRC, and by hosting student social events!', 
-    'Research, Student Affairs, Advocating'),
+    'Research, Student Affairs, Advocating'
+),
 
 (4, 'Afghan Student Association', 
     'ASA-OU, a vibrant student organization at the University of Oklahoma, is dedicated to fostering cultural awareness and appreciation for ' + 
@@ -97,8 +98,6 @@ VALUES
     'This is the Alpha Eta Rho - Beta Chi chapter at OU. Alpha Eta Rho is a professional collegiate aviation fraternity founded in 1929, dedicated to fostering, and mentoring students that have a common interest in the field of aviation. ' + 
     'It is a coed fraternity that emphasizes mentorship, professional development, and leadership potential amongst students within the aviation industry. ' +
     'Alpha Eta Rho welcomes and encourages a diverse background of individuals to participate in their organization!', 
-
-    'Greek Life, Aviation, Fraternity, mentorship, professional development, leadership');
 
     'Greek Life, Aviation, Fraternity, mentorship, professional development, leadership'),
 
