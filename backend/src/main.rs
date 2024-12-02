@@ -35,13 +35,13 @@ struct Org {
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 struct Contact {
-    contact_id: u32,
-    org_id: u32,
-    first_name: Option<String>,
-    last_name: Option<String>,
-    email: Option<String>,
-    phone: Option<String>,
-    addr: Option<String>,
+    pub contact_id: u32,
+    pub org_id: u32,
+    pub first_name: Option<String>,
+    pub last_name: Option<String>,
+    pub email: Option<String>,
+    pub phone: Option<String>,
+    pub addr: Option<String>,
 }
 
 #[actix_web::main]
