@@ -54,9 +54,10 @@ body {
     font-weight: bold;
 }
 
-.organizations:hover, .about:hover, .contact:hover {
+.organizations:hover, .about:hover, .contact:hover, .events:hover {
     background-color:  rgba(216, 216, 216, 0.675); /* Darker color on hover */
 }
+
 
 .logo {
     width: 200px; /* Adjust width as needed */
