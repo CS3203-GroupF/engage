@@ -565,40 +565,40 @@ VALUES
     'weather', 'meteorology', 'forecast', 'OWL', 'storm'),
 
 (122, 'Omani Students Association',
-    '',
-    ''),
+    'OSAs function is to raise awareness in the Norman community in general, and OU community in particular about Omans rich cultural heritage, traditional values, prevailing local customs and deep-rooted history',
+    'culture', 'community', 'student-life', 'international'),
 
-(123, '',
-    '',
-    ''),
+(123, 'Orthodox Christian Fellowship',
+    'OCF is the official collegiate campus ministry program under the Assembly of Canonical Orthodox Bishops of the United States of America. The goal of OCF is to connect Orthodox college students through social events.',
+    'Christ', 'fellowship', 'ministry', 'jesus', 'social', 'beliefs'),
 
-(124, '',
-    '',
-    ''),
+(124, 'OU Badminton Club',
+    'The OU Badminton Club holds normal practices in the Sarkeys Fitness Center all year round. Badminton courts are set up and available every day. All currently registered students can enter the gym at no charge.',
+    'sports', 'badminton', 'racket', 'sarkeys'),
 
-(125, '',
-    '',
-    ''),
+(125, 'OU Clay Target Club',
+    'All skill levels welcome. We are a clay target shooting club participating in weekly practices including trap, skeet, and sporting clay competitions. Practice is held at a local outdoor gun range',
+    'shooting', 'clay', 'social', 'sports'),
 
-(126, '',
-    '',
-    ''),
+(126, 'OU Climbing Club',
+    'The OU Climbing Club is dedicated to providing climbing opportunities for OU students at all levels of athleticism and skills, including competitive opportunities through the OU Climbing Team. This includes both indoor and outdoor climbing, engagement with the climbing community, and support for the outdoor environments that make climbing possible.',
+    'climb', 'rock', 'social', 'community', 'sports'),
 
-(127, '',
-    '',
-    ''),
+(127, 'OU Cousins',
+    'Through this program, students are matched according to hobbies, majors, and countries of special interest. Each International or exchange student is matched with one or two American students and invited to participate in monthly events.',
+    'international', 'social', 'bonding', 'mentor'),
 
-(128, '',
-    '',
-    ''),
+(128, 'OU Food Pantry',
+    'The University of Oklahoma Food Pantrys mission is to contribute to the overall health and wellness of the OU campus community by providing free, supplemental food assistance to OU Norman Campus students, faculty and staff.',
+    'food', 'volunteer', 'social', 'donations'),
 
-(129, '',
-    '',
-    ''),
+(129, 'OU Mens Rugby Club',
+    'Enhance the Student-Athlete Club Experience at Oklahoma University for both Young Men and Young Women by providing the best collegiate coaching and facilities, by competing at the highest level of National and International competition, by providing scholarships, and by supporting the athletes and social members academically',
+    'sports', 'rugby', 'social', 'competitive'),
 
-(130, '',
-    '',
-    ''),
+(130, 'OU Mens Ultimate Frisbee Club',
+    'the Oklahoma Apes of Wrath are dedicated to representing the University of Oklahoma to the best of our abilities as we travel across the region competing in Ultimate Frisbee tournaments. We practice Monday and Friday 6-8pm on the south side of the Intramural Fields. All skill levels welcome.',
+    'sports', 'social', 'competitive', 'frisbee'),
 
 (131, '',
     '',
@@ -925,23 +925,23 @@ VALUES
 
 (121, 121, 'N/A', 'N/A', 'owl@ou.edu', 'N/A', 'N/A'),
 
-(122, 122, ),
+(122, 122, 'Abdullah', 'Alraisi', 'Abdullah.f.alraisi@ou.edu', 'N/A', 'N/A'),
 
-(123, 123, ),
+(123, 123, 'N/A', 'N/A' 'kqpowers@ou.edu', '(405)-314-0602', '630 Okmulgee Street Norman, OK 73071'),
 
-(124, 124, ),
+(124, 124, 'N/A', 'N/A', 'badminton_exec@groups.ou.edu', 'N/A', 'N/A'),
 
-(125, 125, ),
+(125, 125, 'N/A', 'N/A', 'OklahomaCTT@gmail.com', '(214) 862-8600', 'N/A'),
 
-(126, 126, ),
+(126, 126, 'Bradley', 'Vanbebber', 'bradley.r.vanbebber-1@ou.edu', 'N/A', 'N/A'),
 
-(127, 127, ),
+(127, 127, 'N/A', 'N/A', 'oucousins@ou.edu', '(405)-325-3163', '900 Asp Ave Suite 428 Norman, OK 73019-4054'),
 
-(128, 128, ),
+(128, 128, 'N/A', 'N/A', 'oupantry@ou.edu', '(405)-325-2044', '331 Cate Center Dr Norman, OK 73072'),
 
-(129, 129, ),
+(129, 129, 'Curt', 'Hammock', 'curt.c.hammock-1@ou.edu', '(405)-326-9055', '509-553 GT Blankenship Blvd Norman, OK 73072'),
 
-(130, 130, ),
+(130, 130, 'N/A', 'N/A', 'okultimate@gmail.com', 'N/A', 'N/A'),
 
 (131, 131, ),
 
