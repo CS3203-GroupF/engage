@@ -234,6 +234,40 @@ body {
     padding: 0px 0px 0px 20px;
 }
 
+/* Content Section Styling */
+.content-section {
+    background-color: white; /* White background for contrast */
+    margin: 30px auto; /* Center the section */
+    padding: 30px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners for modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    max-width: 800px; /* Restrict maximum width for readability */
+    text-align: justify; /* Align text for a clean, professional look */
+}
+
+/* Content Header Styling */
+.content-section h2 {
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    color: #343a40; /* Dark gray for professional appearance */
+    text-align: center; /* Center the header */
+    margin-bottom: 20px; /* Add spacing below the header */
+}
+
+/* Paragraph Styling */
+.content-section p {
+    font-size: 1.2rem; /* Slightly larger font for readability */
+    color: #555; /* Subtle gray for better readability */
+    line-height: 1.8; /* Improve spacing between lines */
+    margin-bottom: 15px; /* Add spacing between paragraphs */
+}
+
+/* Add Hover Effect for Interactive Text */
+.content-section p:hover {
+    background-color: #f4f4f9; /* Subtle background highlight */
+    transition: background-color 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+
 /* This CSS seems to break some of the style, uncomment if nessessary
 .search-container {
     margin: 20px auto;
