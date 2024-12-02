@@ -1,6 +1,7 @@
-use std::str::FromStr as _;
+use std::{collections::HashMap, str::FromStr as _};
 
 use actix_web::{get, web, App, HttpServer, Responder};
+use fuzzy_matcher::{skim::SkimMatcherV2, FuzzyMatcher as _};
 use serde::{Deserialize, Serialize};
 use sqlx::{
     sqlite::{SqliteConnectOptions, SqliteJournalMode},
@@ -60,6 +61,7 @@ async fn main() -> std::io::Result<()> {
             .service(org_by_id)
             .service(org_by_name)
             .service(org_contact_by_id)
+            .service(fuzzy_search_orgs)
             //
             // add app state to the global `App`
             .app_data(web::Data::new(State {
@@ -158,4 +160,78 @@ async fn org_contact_by_id(
             )))
         }
     }
+}
+
+#[derive(Clone, Debug, Deserialize)]
+pub struct SearchQuery {
+    pub query: String,
+}
+
+/// Using fuzzy search, grabs organizations with similar words to the query.
+///
+/// Example URL: `http://localhost:1111/fuzzy_search?query=computer`
+#[get("/fuzzy_search")]
+#[tracing::instrument(skip_all)]
+async fn fuzzy_search_orgs(
+    query: web::Query<SearchQuery>,
+    state: web::Data<State>,
+) -> actix_web::Result<impl Responder> {
+    // grab our query
+    let query = &query.query;
+    tracing::debug!("got query `{query}`!");
+
+    // search for orgs
+    //
+    // FIXME: this is hilariously slow. please dont deserialize ur entire db
+    // for one server response, kids.
+    //
+    // but dear god, if you do, at least cache the result LOL
+    let orgs: Vec<Org> = match sqlx::query_as!(Org, "SELECT * FROM orgs")
+        .fetch_all(&state.db)
+        .await
+    {
+        Ok(good_orgs) => good_orgs,
+        Err(e) => {
+            tracing::error!("Failed to check db for orgs!!! (err: {e})");
+            return Err(actix_web::error::ErrorInternalServerError(
+                "failed to access database..?",
+            ));
+        }
+    };
+
+    // grab the top 12
+    let top_matches = {
+        let fuzzy_matcher = SkimMatcherV2::default();
+        let mut all = orgs
+            .into_iter()
+            .map(|org| {
+                // also search on just the org's name, and weight it really big
+                let high = fuzzy_matcher.fuzzy_match(&org.org_name, query);
+
+                // and tags can be medium
+                let medium = fuzzy_matcher.fuzzy_match(&org.keywords, query);
+
+                let low = fuzzy_matcher.fuzzy_match(&org.descr, query);
+
+                let total_score = high.map(|h| h * 10).unwrap_or(0)
+                    + medium.map(|m| m * 4).unwrap_or(0)
+                    + low.unwrap_or(0);
+
+                (org.clone(), total_score)
+            })
+            .collect::<Vec<_>>();
+
+        all.sort_unstable_by_key(|(_, score)| *score); // sort by score
+        all.reverse(); // with highest score first!
+
+        let mut top_12 = Vec::new();
+
+        for i in 0..12 {
+            top_12.push(all.get(i).map(|(org, _score)| org).cloned());
+        }
+
+        top_12
+    };
+
+    Ok(web::Json(top_matches))
 }

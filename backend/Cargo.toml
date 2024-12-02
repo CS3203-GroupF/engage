@@ -11,6 +11,7 @@ path = "src/generate_sql_file.rs"
 actix-web = { version = "4.9.0", features = ["rustls"] }
 anyhow = "1.0.91"
 csv = "1.3.1"
+fuzzy-matcher = "0.3.7"
 serde = "1.0.215"
 sqlx = { version = "0.8.2", features = [
     "runtime-tokio",
