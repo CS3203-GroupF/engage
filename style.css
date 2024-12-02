@@ -355,37 +355,86 @@ body {
 */
 .contact-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Two rows, three columns */
     gap: 20px;
-    padding: 20px;
+    padding: 40px;
     max-width: 1200px;
-    margin: 0 auto; /* Center the grid */
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-card {
-    background-color: white; /* Match existing content-section style */
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left; /* Align text to the left */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    height: 200px; /* Increased height for longer content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .contact-card h2 {
-    margin: 0 0 10px;
+    margin: 5px 0;
     color: #343a40;
-    font-size: 1.5rem;
+    font-size: 1.4rem; /* Adjusted font size */
+    font-weight: bold;
+    word-wrap: break-word; /* Break long names onto new lines */
 }
 
 .contact-card p {
     margin: 5px 0;
     font-size: 1rem;
+    color: #555;
+    word-wrap: break-word; /* Prevent overflow for long emails */
 }
 
 .contact-card a {
     color: #007bff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .contact-card a:hover {
     text-decoration: underline;
+    color: #0056b3;
+}
+
+.contact-header {
+    text-align: center;
+    font-size: 2rem;
+    color: #343a40;
+    margin: 50px 0 20px; /* Added extra margin to move it down */
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .contact-list {
+        grid-template-columns: repeat(2, 1fr); /* Adjust to two columns for medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-list {
+        grid-template-columns: repeat(1, 1fr); /* Adjust to one column for small screens */
+    }
+
+    .contact-card {
+        padding: 15px;
+        height: auto;
+    }
+
+    .contact-header {
+        font-size: 1.5rem;
+    }
 }
