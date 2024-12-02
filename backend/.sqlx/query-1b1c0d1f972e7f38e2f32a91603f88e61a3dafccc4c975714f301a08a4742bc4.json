@@ -1,0 +1,44 @@
+{
+  "db_name": "SQLite",
+  "query": "SELECT * FROM orgs",
+  "describe": {
+    "columns": [
+      {
+        "name": "org_id",
+        "ordinal": 0,
+        "type_info": "Integer"
+      },
+      {
+        "name": "org_name",
+        "ordinal": 1,
+        "type_info": "Text"
+      },
+      {
+        "name": "member_ct",
+        "ordinal": 2,
+        "type_info": "Integer"
+      },
+      {
+        "name": "descr",
+        "ordinal": 3,
+        "type_info": "Text"
+      },
+      {
+        "name": "keywords",
+        "ordinal": 4,
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  "hash": "1b1c0d1f972e7f38e2f32a91603f88e61a3dafccc4c975714f301a08a4742bc4"
+}

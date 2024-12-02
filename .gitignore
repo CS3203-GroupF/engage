@@ -2,3 +2,7 @@
 **/.vs
 **/target
 backend/Cargo.lock
+
+# avoid syncing the fr database (lmao) 
+backend/engage.db
+backend/engage.db-**
