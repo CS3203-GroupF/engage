@@ -59,6 +59,7 @@ async fn main() -> std::io::Result<()> {
             // add the different routes that the frontend can use
             .service(org_by_id)
             .service(org_by_name)
+            .service(org_contact_by_id)
             //
             // add app state to the global `App`
             .app_data(web::Data::new(State {
@@ -122,6 +123,38 @@ async fn org_by_name(
             tracing::info!("Failed to find org with id {org_name}. (err: {e})");
             Err(actix_web::error::ErrorNotFound(format!(
                 "didn't find an org with name `{org_name}`"
+            )))
+        }
+    }
+}
+
+/// Grabs an organzation's contact using its ID.
+///
+/// Please note that some fields can be `NULL` ([`Option::None`]) on the
+/// [`Contact`] we find!
+#[get("/org/id/{org_id}/contact")]
+#[tracing::instrument(skip(state))]
+async fn org_contact_by_id(
+    path: web::Path<u32>,
+    state: web::Data<State>,
+) -> actix_web::Result<impl Responder> {
+    let org_id = path.into_inner();
+
+    // check for the org from its id
+    let contact = sqlx::query_as!(
+        Contact,
+        r#"SELECT * FROM contacts WHERE org_id = $1"#,
+        org_id
+    )
+    .fetch_one(&state.db)
+    .await;
+
+    match contact {
+        Ok(contact) => Ok(web::Json(contact)),
+        Err(e) => {
+            tracing::info!("Failed to find contact for org with ID {org_id}. (err: {e})");
+            Err(actix_web::error::ErrorNotFound(format!(
+                "didn't find contact for org w/ id {org_id}"
             )))
         }
     }
