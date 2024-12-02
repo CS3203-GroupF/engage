@@ -471,24 +471,3 @@ body {
         font-size: 1.5rem;
     }
 }
-
-.container {
-    background-color: white;
-    margin: 3in auto;
-    padding: 20px;
-    position: relative;
-}
-
-.image-right {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    max-width: 200px; /* Adjust as needed */
-    max-height: 200px;
-}
-
-.image-right img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
