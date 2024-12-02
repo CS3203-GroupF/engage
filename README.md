@@ -9,24 +9,25 @@
 * Make the website more user friendly.  
 * Increase student involvement around campus.  
 * Help students find a community that aligns with their interests.
-* Allow officers and advisors easy access to important documents and rosters for both academic and social purposes.
+* Allow officers and advisors easy access to add club meetings on the calander that anyone can add to their own.
 
 **Features:**
 
 * User Input: Students can input their preferences from a drop down selection list that includes likes, major, and interests.  
 * Club Recommendation: Based on the user’s input, the website recommends university clubs that match the student’s selections.  
 * University Database Integration: The system pulls club data from a university database to provide accurate information regarding the available clubs at the University of Oklahoma.
-* Quality of life: Sinced we aim to cater towards not just incoming freshmen, but to club members and chairs as well, we seek to create an easy way for our users to access mandatory documents and stay up-to-date with club agendas and duties.
-
+* Quality of life: Sinced we aim to cater towards not just incoming freshmen, but to club members and chairs as well, we seek to create an easy way for our users to find new clubs that they hadn't heard of before by seaching in tags
 **Current Tasks:**
 
-* Trying to get OU’s database information for clubs and organizations from the Director of Student Government and Organization Services.
+* Trying to get OU’s database information for clubs and organizations from the Director of Student Government and Organization Services. // This has been done
 * At the minimum we will be recieving:
   * Organization name  
   * Number of members in the roster  
   * Organization description
   * 9/19/2024 Still waiting on a response from the Director of Student Givernment and Organization Services
+  * 10/12/24 We have recived the database
 * Learning HTML at the moment to create and design the homepage of the site, and any branch sites that may stem from links and such.
+* Connect the back end to the front 
 
 **Branch Plan:**
 
