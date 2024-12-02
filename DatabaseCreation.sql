@@ -98,9 +98,6 @@ VALUES
     'This is the Alpha Eta Rho - Beta Chi chapter at OU. Alpha Eta Rho is a professional collegiate aviation fraternity founded in 1929, dedicated to fostering, and mentoring students that have a common interest in the field of aviation. ' + 
     'It is a coed fraternity that emphasizes mentorship, professional development, and leadership potential amongst students within the aviation industry. ' +
     'Alpha Eta Rho welcomes and encourages a diverse background of individuals to participate in their organization!', 
-
-    'Greek Life, Aviation, Fraternity, mentorship, professional development, leadership');
-
     'Greek Life, Aviation, Fraternity, mentorship, professional development, leadership'),
 
 (13, 'Alpha Gamma Delta',
@@ -598,7 +595,7 @@ VALUES
 
 (130, 'OU Mens Ultimate Frisbee Club',
     'the Oklahoma Apes of Wrath are dedicated to representing the University of Oklahoma to the best of our abilities as we travel across the region competing in Ultimate Frisbee tournaments. We practice Monday and Friday 6-8pm on the south side of the Intramural Fields. All skill levels welcome.',
-    'sports', 'social', 'competitive', 'frisbee'),
+    'sports', 'social', 'competitive', 'frisbee');
 
 
 --Insert Data Values into Contact Table)--
@@ -848,7 +845,7 @@ VALUES
 
 (122, 122, 'Abdullah', 'Alraisi', 'Abdullah.f.alraisi@ou.edu', 'N/A', 'N/A'),
 
-(123, 123, 'N/A', 'N/A' 'kqpowers@ou.edu', '(405)-314-0602', '630 Okmulgee Street Norman, OK 73071'),
+(123, 123, 'N/A', 'N/A', 'kqpowers@ou.edu', '(405)-314-0602', '630 Okmulgee Street Norman, OK 73071'),
 
 (124, 124, 'N/A', 'N/A', 'badminton_exec@groups.ou.edu', 'N/A', 'N/A'),
 
@@ -862,4 +859,4 @@ VALUES
 
 (129, 129, 'Curt', 'Hammock', 'curt.c.hammock-1@ou.edu', '(405)-326-9055', '509-553 GT Blankenship Blvd Norman, OK 73072'),
 
-(130, 130, 'N/A', 'N/A', 'okultimate@gmail.com', 'N/A', 'N/A'),
+(130, 130, 'N/A', 'N/A', 'okultimate@gmail.com', 'N/A', 'N/A');
