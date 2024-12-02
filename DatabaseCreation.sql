@@ -98,9 +98,9 @@ VALUES
     'This is the Alpha Eta Rho - Beta Chi chapter at OU. Alpha Eta Rho is a professional collegiate aviation fraternity founded in 1929, dedicated to fostering, and mentoring students that have a common interest in the field of aviation. ' + 
     'It is a coed fraternity that emphasizes mentorship, professional development, and leadership potential amongst students within the aviation industry. ' +
     'Alpha Eta Rho welcomes and encourages a diverse background of individuals to participate in their organization!', 
-<<<<<<< Updated upstream
+
     'Greek Life, Aviation, Fraternity, mentorship, professional development, leadership');
-=======
+
     'Greek Life, Aviation, Fraternity, mentorship, professional development, leadership'),
 
 (13, 'Alpha Gamma Delta',
@@ -499,8 +499,6 @@ VALUES
 (105, 'National Medical Device Make-A-Thon',
     'A competition team dedicated to designing medical devices for OU 2025',
     'competition, medical, prosthetics, biomedical, engineer');
->>>>>>> Stashed changes
-
 
 --Insert Data Values into Contact Table)--
 INSERT INTO Contact(ContactID, OrganizationID, FirstName, LastName, Email, Phone, Address)
@@ -527,8 +525,190 @@ VALUES
 
 (11,11, 'N/A', 'N/A', 'ouaxopres@gmail.com', '(832) 600-2465', '1115 College Ave Norman, OK 73072 United States'),
 
-(12,12, 'N/A', 'N/A', 'N/A', 'N/A', '1700 Lexington Ave Norman, Ok 73069 United States');
+(12,12, 'N/A', 'N/A', 'N/A', 'N/A', '1700 Lexington Ave Norman, Ok 73069 United States'),
 
+(13,13, 'Madison', 'Newberry', 'madison.newberry@ou.edu', '(405)-443-5098', '930 Chautauqua Ave Norman OK 73069'),
 
+(14,14, 'N/A', 'N/A', 'oukdphi.president@gmail.com', '(405)-837-1898', '900 Asp Avenue, Suite #311 Norman OK 73019'),
 
+(15,15, 'N/A', 'N/A', 'mkelly@ou.edu', '(405)-325-0850', '660 Parrington Oval Apt. 5089 Norman OK 73019'),
 
+(16,16, 'N/A', 'N/A', 'N/A', '(405)-325-3253', '100 E. Boyd St. Room 710 Norman, OK 73019'),
+
+(17,17, 'N/A', 'N/A', 'thai@ou.edu', '(123)-132-1234', '300 Timberdell Road Norman OK 73019'),
+
+(18,18, 'N/A', 'N/A', 'Aisa@ou.edu', '(405)-325-3163', '900 Asp Ave Suite 429 Norman OK 74019'),
+
+(19,19, 'N/A', 'N/A', 'aiche@ou.edu', 'N/A', '100 E Boyd St. T-301'),
+
+(20,20, 'N/A', 'N/A', 'Rachel.A.Stone-1@ou.edu', '(405)-325-3561', '307 W. Brooks, Room 1 Price Hall Norman OK 73019'),
+
+(21,21, 'N/A', 'N/A', 'asceofficers@groups.ou.edu', 'N/A', 'N/A'),
+
+(22,22, 'N/A', 'N/A', 'avery.w.melster-1@ou.edu', '(713)-806-7760', 'N/A'),
+
+(23,23, 'Daneil', 'Strangward', 'daniel.strangward@ou.edu', '(405)-274-7498', 'N/A'),
+
+(24,24, 'N/A', 'N/A', 'ouarabstudents@gmail.com', 'N/A', 'N/A'),
+
+(25,25, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(26,26, 'N/A', 'N/A', 'oubeeclub@ou.edu', 'N/A', 'N/A'),
+
+(27,27, 'N/A', 'N/A', 'kfeiner1@ou.edu', '(405)-364-3722', '502 E Main Street Norman OK 73071'),
+
+(28,28, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(29,29, 'N/A', 'N/A', 'BGSOAdministration@groups.ou.edu', 'N/A', 'N/A'),
+
+(30, 30, 'N/A', 'N/A', 'abbiem01@ou.edu', 'N/A', 'N/A'),
+
+(31,31, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(32,32, 'Jordyn', 'Williams', 'Jordyn.s.williams-1@ou.edu', '(405)-339-2692', '660 Parrington Oval Norman OK 73019'),
+
+(33,33, 'N/A', 'N/A', 'bsa.ou1967@gmail.com', '(405)-325-3163', '900 Asp Avenue Suite 429 Norman OK 73019'),
+
+(34,34, 'Harrison', 'Dean', 'harrison.e.dean-1@ou.edu', 'N/A', 'N/A'),
+
+(35,35, 'N/A', 'N/A', 'brt@ou.edu', '(405)-325-2621', '202 W. Boyd St. Room 107 Norman OK 73019'),
+
+(36,36, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(37,37, 'Lucila', 'Kotroba', 'lucila.kotroba-1@ou.edu', 'N/A', 'University of Oklahoma College of Law 300 Timberdell Road Norman OK 73019'),
+
+(38,38, 'N/A', 'N/A', 'madmbenton@ou.edu', '(918)-408-1977', 'N/A'),
+
+(39,39, 'Sydney', 'Brown', 'sydney.c.brown-1@ou.edu', '(405)-76002128', 'N/A'),
+
+(40,40, 'Bryan', 'Benedict', 'bryanbenedictxa@gmail.com', '(972)-832-2831', '900 Aps Avenue PO BOX 3045 Norman OK 73070'),
+
+(41,41, 'N/A', 'N/A', 'harvey@ou.edu', '(405)-325-3836', '202 W Boyd St Norman OK 73019'),
+
+(42,42, 'N/A', 'N/A', 'chineseclub@groups.ou.edu', 'N/A', 'N/A'),
+
+(43,43, 'N/A', 'N/A', 'christiansoncampus.ok@gmail.com', '(405)-974-9368', '704 W Lindsey St Norman OK 73069'),
+
+(44,44, 'N/A', 'N/A', 'ou.circlekinternational@gmail.com', 'N/A', '900 Asp Ave Rm. 181 Norman OK 73019 Norman OK 73019'),
+
+(45,45, 'Teddy', 'Winter', 'teddy.winter@ou.edu', '(682)-314-7111', 'N/A'),
+
+(46,46, 'Finn', 'Wolf', 'finnwolf@ou.edu', '(207)-274-4711', '841 Kansas St. Norman OK 73069'),
+
+(47,47, 'N/A', 'N/A', 'oucollegedemocrats@gmail.com', 'N/A', 'N/A'),
+
+(48,48, 'N/A', 'N/A', 'diulioa.26@ou.edu', '(714)-599-3562', 'N/A'),
+
+(49,49, 'Andres', 'Gonzalez', 'andres.gonzalez@ou.edu', '(405)-325-3721', '202 W. Boyd St. Room 124 Norman OK 73019'),
+
+(50,50, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(51,51, 'N/A', 'N/A', 'N/A', 'N/A', '2500 Asp Ave Norman OK 73072'),
+
+(52,52, 'Aaron', 'Lim', 'aaron.j.lim-1@ou.edu', '(405)-650-5473', 'N/A'),
+
+(53,53, 'N/A', 'N/A', 'ousfpc@outlook.com', 'N/A', '640 Parrington Oval Wallace Old Science Rm 300 Norman OK 73019'),
+
+(54,54, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(55,55, 'N/A', 'N/A', 'crypto@ou.edu', 'N/A', 'N/A'),
+
+(56,56, 'Catherine', 'Donner', 'catherine.g.donner-1@ou.edu', 'N/A', 'N/A'),
+
+(57,57, 'N/A', 'N/A', 'ou.deltasigmaphi@gmail.com', 'N/A', 'N/A'),
+
+(58,58, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(59,59, 'Jackson', 'Weldom', 'jacksonweldon37@yahoo.com', '(405)-795-1933', 'N/A'),
+
+(60,60, 'N/A', 'N/A', 'akypriot@ou.edu', '(405)-325-5140', '202 West Boyd Street Room 334 Norman OK 73019'),
+
+(61,61, 'N/A', 'N/A', 'maura.a.mgaya-1@ou.edu', 'N/A', '2500 Asp Ave Norman OK 73072'),
+
+(62,62, 'N/A', 'N/A', 'okiueconclub@gmail.com', 'N/A', 'N/A'),
+
+(63,63, 'N/A', 'N/A', 'elitedanceou@gmail.com', 'N/A', 'N/A'),
+
+(64,64, 'N/A', 'N/A', 'engineeringstudentlife@ou.edu', 'N/A', 'N/A'),
+
+(65,65, 'N/A', 'N/A', 'oklahomaeso@gmail.com', 'N/A', '850 Jenkins Ave Norman, OK 73069'),
+
+(66,66, 'N/A', 'N/A', 'eclub@ou.edu', '(405)-325-3164', '850 S Jenkins Ave'),
+
+(67,67, 'N/A', 'N/A', 'startups@ou.edu', '(405)-325-2728', '201 David L. Boren Blvd. Ste. 121'),
+
+(68,68, 'Zachary', 'Cassady', 'Zachary.B.Cassady-1@ou.edu', 'N/A', '4300 Caravel dr 2604 Yukon OK 73099'),
+
+(69,69, 'N/A', 'N/A', 'fedsoc@ou.edu', 'N/A', 'N/A'),
+
+(70,70, 'N/A', 'N/A', 'president.oufsa@gmail.com', '(405)-388-0779', 'N/A'),
+
+(71,71, 'Angelique', 'Price', 'angelique.price@ou.edu', '(405)-325-3163', '900 Asp Avenue, Suite 370 Norman OK 73019'),
+
+(72,72, 'N/A', 'N/A', 'okada@ou.edu', 'N/A', '1700 Lexington Ave Norman OK 73069'),
+
+(73,73, 'N/A', 'N/A', 'adelya@ou.edu', 'N/A', 'N/A'),
+
+(74,74, 'N/A', 'N/A', 'gamedevou@gmail.com', 'N/A', 'N/A'),
+
+(75,75, 'N/A', 'N/A', 'gammabetaphi@ou.edu', 'N/A', '900 Asp Avenue OMU Room 381, #421 Norman OK 73019'),
+
+(76,76, 'Kaleigh', 'Banor', 'kaleigh.bangor@ou.edu', '(405)-325-2482', '660 Parrington Oval Norman OK 73019'),
+
+(77,77, 'N/A', 'N/A', 'gwc@groups.ou.edu', '(580)-954-7050', 'Norman OK 73019'),
+
+(78,78, 'Lauren', 'Hurd', 'lauren4hurd@gmail.com', '(405)-938-8033', '2040 Turtle Creek Way Norman OK 73071'),
+
+(79,79, 'N/A', 'N/A', 'gba@ou.edu', '(405)-325-1969', '865 Research Parkway 3rd Floor Oklahoma City OK 73104'),
+
+(80,80, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(81,81, 'Margaret', 'Shaffer', 'margaret.shaffer@ou.edu', '(414)-828-5569', '307 West Brooks MFPH 1065B Norman OK 73019'),
+
+(82,82, 'N/A', 'N/A', 'kmthumann@ou.edu', 'N/A', '520 Parrington Oval Norman OK 73019'),
+
+(83,83, 'N/A', 'N/A', 'hacklahoma@ou.edu', 'N/A', 'N/A'),
+
+(84,84, 'Millie', 'Martinez', 'millie.j.martinez-1@ou.edu', '(405)-305-9463', '9900 Asp Ave Norman OK 73069'),
+
+(85,85, 'N/A', 'N/A', 'ouhorrormovieclub@gmail.com', 'N/A', 'N/A'),
+
+(86,86, 'June', 'Hyung', 'junehyung_lee@ou.edu', '(405)-990-3748', 'N/A'),
+
+(87,87, 'N/A', 'N/A', 'indiastudentassociation@ou.edu', '(405)-845-6032', '900 Asp Ave Norman, OK 73071'),
+
+(88,88, 'Cianne', 'Bennet', 'graycianne.m.bennet-1@ou.edu', 'N/A', '660 Parrington Oval Norman OK 73019'),
+
+(89,89, 'N/A', 'N/A', 'kbreynolds@ou.edu', '(951)-764-4980', '865 Asp Ave Felgar Hall Norman OK 73019'),
+
+(90,90, 'Marsha', 'Schoolcraft', 'N/A', 'N/A', 'N/A'),
+
+(91,91, 'N/A', 'N/A', 'ou.one.isc@gmail.com', '(405)-868-0351', '202 W Boyd St Norman OK 73019'),
+
+(92,92, 'Elaina', 'Lahmann', 'Elaina.C.Lahmann-1@ou.edu', 'N/A', 'N/A'),
+
+(93,93, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(94,94, 'N/A', 'N/A', 'sigma.president@kappadeltachi.org', 'N/A', 'N/A'),
+
+(95,95, 'Ian', 'Pei', 'ianpei2000@ou.edu', '(918)-804-2366', '900 Asp Ave OMU Room 181 #109 Norman OK 73019'),
+
+(96,96, 'N/A', 'N/A', 'leadandvolunteer@ou.edu', '(405)-325-4020', 'Oklahoma Memorial Union Suite 247 900 Asp Avenue Norman OK 73019'),
+
+(97,97, 'Abigail', 'Baldwin', 'abigail.l.baldwin-1@ou.edu', 'N/A', 'N/A'),
+
+(98,98, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(99,99, 'N/A', 'N/A', 'mun@ou.edu', 'N/A', '729 Elm Ave Farzaneh Hall Room 150 Norman OK 73019'),
+
+(100,100, 'N/A', 'N/A', 'Lyrica@ou.edu', 'N/A', '524 W Boyd St Norman OK 73019'),
+
+(101, 101, 'N/A', 'N/A', 'muslimsofou@gmail.com', 'N/A', '900 Asp Avenue Oklahoma Memorial Union 181 Mailbox 115 Norman OK 73019'),
+
+(102, 102, 'Jay', 'Gilmore', 'jay.gilmore@ou.edu', '(405)-586-0078', '395 W Lindsey St.'),
+
+(103, 103, 'Kylee', 'Foley', 'N/A', 'N/A', 'N/A'),
+
+(104, 104, 'Wyatt', 'Grubbs', 'wyattgrubbs@ou.edu', '(469)-540-5125', 'N/A'),
+
+(105, 105, 'N/A', 'N/A', 'oumdm2025@gmail.com', 'N/A', 'N/A');

@@ -5,33 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OU Engage</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
     <nav class="navbar">
         <ul>
             <!-- Logo on the left -->
-            <li><a href="#"><img src="/images/21302a64-9517-4019-93e7-814adea867db8f7d201b-aecf-4d87-a577-f02c11aa1606.png" alt="" class="logo"></a></li>
-            
+            <li><img src="images/EngageLogo.png" class="logo"></li>
+
             <!-- Centered links -->
             <div class="center-nav">
-                <li><a class="organizations" href="organizations.html" target="_blank">Organizations</a></li>
-                <li><a class="about" href="about.html" target="_blank">About</a></li>
-                <li><a class="contact" href="contact.html" target="_blank">Contact</a></li>
+                <li><a id="organizations" class="organizations" href="" target="_self">Organizations</a></li>
+                <li><a id="events" class="events" href="" target="_self">Events</a></li>
+                <li><a id="about" class="about" href="" target="_self">About</a></li>
+                <li><a id="contact" class="contact" href="" target="_self">Contact</a></li>
             </div>
-            
+
             <!-- Sign In button on the right -->
-            <li class="right"><button class="signIn"><a href="#">Sign In</a></button></li>
+            <li class="right"><button class="signIn"><a href="signin.html">Sign In</a></button></li>
         </ul>
     </nav>
-    
-
 
     <h1 class="header">Organizations</h1>
-        
 
+    <!-- Search bar -->
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search for organizations..." onkeyup="filterBySearch('organization-item')">
+    </div>
 
+    <!-- Tag-based filtering -->
+    <div class="tag-container">
+        <button class="tag" onclick="filterByTag('Sports', 'organization-item')">Sports</button>
+        <button class="tag" onclick="filterByTag('Technology', 'organization-item')">Technology</button>
+        <button class="tag" onclick="filterByTag('Music', 'organization-item')">Music</button>
+        <button class="tag" onclick="filterByTag('Art', 'organization-item')">Art</button>
+        <button class="tag" onclick="filterByTag('Community', 'organization-item')">Community</button>
+        <button class="tag" onclick="unfilter('organization-item')">All</button>
+    </div>
+
+    <!-- List of organizations (just placeholders for now) -->
+    <ul id="organization-list"></ul>
+
+    <script src="app.js"></script>
+
+    <script>
+        setNavBarHrefs()
+        populateOrganizationList();
+    </script>
 
 </body>
 </html>

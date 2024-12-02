@@ -45,7 +45,7 @@ body {
     text-align: center; /* Center text in links */
 }
 
-.organizations, .about, .contact {
+.organizations, .events, .about, .contact {
     color: white; /* Button text color */
     text-decoration: none; /* Remove underline from the link */
     border-radius: 5px; /* Rounded corners */
@@ -85,8 +85,184 @@ body {
 
 .header{
     font-size: 50px;
-    
-    padding-left: 100px;
     padding-top: 25px;
 
 }
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar ul {
+    display: flex;
+    align-items: center;
+    background-color: #343a40;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+.logo {
+    height: 50px;
+    margin-right: auto;
+}
+
+.center-nav li {
+    margin: 0 20px;
+}
+
+.center-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.signIn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.signIn a {
+    text-decoration: none;
+    color: white;
+}
+
+.signIn:hover {
+    background-color: #0056b3;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    color: #343a40;
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+/* Center the search bar */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#search-bar:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Tag styles */
+.tag-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tag {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 14px;
+    color: #343a40;
+    transition: background-color 0.3s ease;
+}
+
+.tag:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Organization list styles */
+#organization-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+}
+
+.organization-item {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.organization-item:last-child {
+    border-bottom: none;
+}
+
+/* Top Half Section with Background Image */
+.top-half {
+    background-image: url('images/College\ Clubs.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.name {
+    padding: 0px 0px 0px 20px;
+}
+
+.email {
+    padding: 0px 0px 0px 20px;
+}
+
+/* This CSS seems to break some of the style, uncomment if nessessary
+.search-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.tag-container {
+    margin-top: 20px;
+}
+
+.tag {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.tag:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+*/
