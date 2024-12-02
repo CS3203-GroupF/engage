@@ -1,3 +1,5 @@
+//import { parse } from '@vanillaes/csv'
+
 function signin() {
     var input1 = document.getElementById("username").value
     var input2 = document.getElementById("password").value
@@ -76,6 +78,17 @@ function getOrganizationAmount() {
     return 5;
 }
 
+/*function getData(dataType, i) {
+    const reader = new FileReader();
+    reader.onload() = (e) => {
+        const text = e.target.result;
+        const array = parse(text);
+        return array[i + 1][dataType];
+    }
+    reader.readAsText("backend\orgs.csv");
+
+}*/
+
 // placeholder to simulate retrieving org from DB
 function getOrganization(i) {
     const orgs = ['OU Football Club', 'OU Tech Enthusiasts', 'OU Choir', 'OU Art Collective', 'OU Volunteer Group'];
@@ -87,11 +100,62 @@ function getOrgDataTag(i) {
     const orgTag = ['Sports', 'Technology', 'Music', 'Art', 'Community'];
     return orgTag[i];
 }
+
+function getOrgDesc(i) {
+    const orgDesc = ['Sports', 'Technology', 'Music', 'Art', 'Community'];
+    return orgDesc[i];
+}
+
+function getOrgContactName(i) {
+    const orgName = ['Henry', 'Henry 2', '', 'Henry 4', 'Henry 5'];
+    return orgName[i];
+}
+
+function getEmail(i) {
+    const orgEmail = ['Henry@gmail', 'Henry 2@gmail', '', 'Henry 4@gmail', 'Henry 5@gmail'];
+    return orgEmail[i];
+}
+
+function getPhoneNumber(i) {
+    const orgNumber = ['111', '222', '', '444', '555'];
+    return orgNumber[i];
+}
+
+function getAddr(i) {
+    const orgAddr = ['111 Place', '222 Place', '', '444 Place', '555 Place'];
+    return orgAddr[i];
+}
+
 function populateOrganizationList() {
     var ul = document.getElementById("organization-list");
     for (let i = 0; i < getOrganizationAmount(); i++) {
         var li = document.createElement("li");
-        li.textContent = getOrganization(i)
+        const heading = document.createElement("h2");
+        heading.textContent = getOrganization(i);
+        li.appendChild(heading);
+        const description = document.createElement("p");
+        description.textContent = getOrgDesc(i);
+        li.appendChild(description);
+        if (getOrgContactName(i).length > 0) {
+            const contact = document.createElement("p");
+            contact.textContent = "Contact Name: " + getOrgContactName(i);
+            li.appendChild(contact);
+        }
+        if (getEmail(i).length > 0) {
+            const email = document.createElement("p");
+            email.textContent = "Email: " + getEmail(i);
+            li.appendChild(email);
+        }
+        if (getPhoneNumber(i).length > 0) {
+            const phone = document.createElement("p");
+            phone.textContent = "Phone Number: " + getPhoneNumber(i);
+            li.appendChild(phone);
+        }
+        if (getAddr(i).length > 0) {
+            const address = document.createElement("p");
+            address.textContent = "Address: " + getAddr(i);
+            li.appendChild(address);
+        }
         li.setAttribute('data-tags', getOrgDataTag(i));
         li.setAttribute('class', 'organization-item')
         ul.appendChild(li);
