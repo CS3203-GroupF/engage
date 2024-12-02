@@ -35,8 +35,8 @@ struct Org {
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 struct Contact {
-    pub contact_id: u32,
-    pub org_id: u32,
+    pub contact_id: i64,
+    pub org_id: i64,
     pub first_name: Option<String>,
     pub last_name: Option<String>,
     pub email: Option<String>,
