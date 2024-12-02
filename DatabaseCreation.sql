@@ -199,12 +199,12 @@ VALUES
 
 (35, 'Boomer Rocket Team',
     'OU Rocket Team Club is an interdisciplinary academic team in which students design, build, and launch high powered rockets. ' +
-    'The team trains and certifies members to build rockets, competes nationally in various events, and takes on experimental independent projects.'
+    'The team trains and certifies members to build rockets, competes nationally in various events, and takes on experimental independent projects.',
     'competition teams, engineering, rockets, stem, interdisciplinary'),
     
 (36, 'Boxing Enthusiasts',
     'We are an organization designed to bring students together through the sport of boxing. ' +
-    'We are dedicated to bringing together fans and boxers from all walks of life to celebrate the sport we love.'
+    'We are dedicated to bringing together fans and boxers from all walks of life to celebrate the sport we love.',
     'boxing, sports, recreational, social'),
 
 (37, 'Business Law Society',
@@ -375,7 +375,7 @@ VALUES
     'leadership, mentorship, honor society, volunteerism'),
 
 (76, 'German Club',
-    'To promote the study and maintenance of German in the United States and abroad; to learn about the cultures and German-speaking countries and groups.'
+    'To promote the study and maintenance of German in the United States and abroad; to learn about the cultures and German-speaking countries and groups.',
     'language, german, culture'),
 
 (77, 'Girls Who Code',
@@ -490,7 +490,7 @@ VALUES
     'professional, english, writing, teach, community'),
 
 (104, 'National Gay Pilots Association',
-    'The NGPA is the largest organization of lesbian, gay, bisexual, transgender, and queer aviation professionals and enthusiasts from around the world.'
+    'The NGPA is the largest organization of lesbian, gay, bisexual, transgender, and queer aviation professionals and enthusiasts from around the world.',
     'build, support, unite, gay, pilot, fly, community'),
 
 (105, 'National Medical Device Make-A-Thon',
