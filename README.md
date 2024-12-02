@@ -48,3 +48,9 @@
 * Switch branches: ```git switch branch_name```
 * Abort a merge in case of conflicts: ```git merge --abort```
 * Pull with an automatic stash save and apply: `git pull --autostash`
+
+**New Programmers**
+We are using a monolithic style of structre
+* Currently we are working on connceting the backend and intergrating the database
+* The front end could use more work from a graphic designer that could help it look more professional
+* Getting input from the customer/ users to see what features they wanted to be added then implement it.
