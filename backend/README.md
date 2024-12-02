@@ -11,3 +11,5 @@ First, you need to set up the database:
 1. Remove any existing database files: `rm engage.db engage.db-shm  engage.db-wal`
 1. Create a new SQLite database: `cat tables.sql | sqlite3 engage.db`
 1. Fill it with data: `cargo run --bin generate_sql_file`
+
+Now, you can run the backend: `cargo run --bin backend --release`
