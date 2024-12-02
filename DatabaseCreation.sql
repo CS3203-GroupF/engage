@@ -498,7 +498,187 @@ VALUES
 
 (105, 'National Medical Device Make-A-Thon',
     'A competition team dedicated to designing medical devices for OU 2025',
-    'competition, medical, prosthetics, biomedical, engineer');
+    'competition, medical, prosthetics, biomedical, engineer'),
+
+(106, 'National Pan-Helenic Council',
+    'A collaborative organization of nine historically African American, international Greek lettered fraternities and sororities',
+    'Frat, Sorority, community, greek, african'),
+
+(107, 'National Society of Black Engineers',
+    'The NSBE aims to increase the number of culturally responsible black engineers who excel academically, succeed professionally, and positively impact the community.',
+    'Black, culture, engineer, community, professional, academic'),
+
+(108, 'Native American Law Student Association',
+    'An organization for law students interested in Native American law or Native American issues',
+    'Native, culture, law, academic, community, professional'),
+
+(109, 'Nautical ROTC',
+    'This organization encompasses the Naval RoTC company on the University of Oklahoma Campus.',
+    'Navy, Nautical, ROTC, military, community, fitness'),
+
+(110, 'Navigators',
+    'An on-campus non-denominational Christian ministry with a program of small group bible study, large group fellowship both on campus and with a local church, and one-one-one evangelism, discipleship, and mentorship.',
+    'Christ, ministry, culture, community, jesus, bible'),
+
+(111, 'Nepalese Student Association',
+    'Their mission is to enhance understanding of Nepal and promote peace and harmony among the various cultures within the University of Oklahoma',
+    'culture, community, outreach, nepal'),
+
+(112, 'Neurobiology Club',
+    'An inclusive community of students passionate about understanding the mysteries of neurobiology',
+    'neuro', 'brain', 'science', 'inclusion', 'community'),
+
+(113, 'OBI OUtreach',
+    'This organization works with Oklahoma Blood Institute to recruit donors and get students involved with blood donations',
+    'blood', 'donation', 'recruit'),
+
+(114, 'Obviously Unrehearsed Improv!',
+    'An OU Comedy troupe focused on recruiting and showing off. All members welcome and auditions are on a semester basis.',
+    'Theater', 'theatre', 'improv', 'audition', 'comedy'),
+
+(115, 'Office of Student Life',
+    'The mission of Student Life is to guide students in realizing academic, professional and personal goals as they progress toward graduation and beyond',
+    'student', 'academic', 'professional', 'goals'),
+
+(116, 'Okie Belles',
+    'The purpose of Okie Belles is to advocate for sisterhood, leadership, and service. Our mission is to make a difference around us by planting the seeds of service for the community to reap the benefits.',
+    'community', 'leadership', 'sister', 'service', 'social'),
+
+(117, 'Oklahoma Aspiring Educators Association',
+    'Oklahoma Aspiring Educators Association is a pre-professional organization of undergraduate and graduate students currently preparing for careers in education',
+    'teaching', 'undergrad', 'graduate', 'education'),
+
+(118, 'Oklahoma Intercollegiate Legislature',
+    'A five-day mock legislative session in the Oklahoma State Capitol once a semester consisting of delegations from over twenty universities across the state. It also includes a journalism competition, a moot court competition and model executive branch',
+    'event', 'legislature', 'mock', 'journal', 'court'),
+
+(119, 'Oklahoma Law Review',
+    'The Review is published by a student editorial board, operating with the advice of faculty. The Review contains lead articles written by scholars and practitioners, as well as student notes and comments. Students may earn membership through achieving a high academic standing or being selected through a writing competition.',
+    'law', 'student', 'editorial', 'writing'),
+
+(120, 'Oklahoma Votes',
+    'Oklahoma Votes is a campus-wide initiative to encourage students to register to vote and to participate in local, state, and national elections.',
+    'vote', 'student', 'government', 'register'),
+
+(121, 'Oklahoma Weather Lab',
+    'The Oklahoma Weather Lab is OUs student forecasting organization. Here, students get hands on weather forecasting experience at our nightly forecast shifts 6-8p M-F.',
+    'weather', 'meteorology', 'forecast', 'OWL', 'storm'),
+
+(122, 'Omani Students Association',
+    '',
+    ''),
+
+(123, '',
+    '',
+    ''),
+
+(124, '',
+    '',
+    ''),
+
+(125, '',
+    '',
+    ''),
+
+(126, '',
+    '',
+    ''),
+
+(127, '',
+    '',
+    ''),
+
+(128, '',
+    '',
+    ''),
+
+(129, '',
+    '',
+    ''),
+
+(130, '',
+    '',
+    ''),
+
+(131, '',
+    '',
+    ''),
+
+(132, '',
+    '',
+    ''),
+
+(133, '',
+    '',
+    ''),
+
+(134, '',
+    '',
+    ''),
+
+(135, '',
+    '',
+    ''),
+
+(136, '',
+    '',
+    ''),
+
+(137, '',
+    '',
+    ''),
+
+(138, '',
+    '',
+    ''),
+
+(139, '',
+    '',
+    ''),
+
+(140, '',
+    '',
+    ''),
+
+(141, '',
+    '',
+    ''),
+
+(142, '',
+    '',
+    ''),
+
+(143, '',
+    '',
+    ''),
+
+(144, '',
+    '',
+    ''),
+
+(145, '',
+    '',
+    ''),
+
+(146, '',
+    '',
+    ''),
+
+(147, '',
+    '',
+    ''),
+
+(148, '',
+    '',
+    ''),
+
+(149, '',
+    '',
+    ''),
+
+(150, '',
+    '',
+    '');
 
 --Insert Data Values into Contact Table)--
 INSERT INTO Contact(ContactID, OrganizationID, FirstName, LastName, Email, Phone, Address)
@@ -711,4 +891,94 @@ VALUES
 
 (104, 104, 'Wyatt', 'Grubbs', 'wyattgrubbs@ou.edu', '(469)-540-5125', 'N/A'),
 
-(105, 105, 'N/A', 'N/A', 'oumdm2025@gmail.com', 'N/A', 'N/A');
+(105, 105, 'N/A', 'N/A', 'oumdm2025@gmail.com', 'N/A', 'N/A'),
+
+(106, 106, 'N/A', 'N/A', 'ounphc405@gmail.com', 'N/A', '900 Asp Ave Suite 370 Norman, OK 73019'),
+
+(107, 107, 'N/A', 'N/A', 'nsbe@ou.edu', 'N/A', 'N/A'),
+
+(108, 108, 'N/A', 'N/A', 'nalsa@ou.edu', '(214)-995-5082', '300 W Timberdell Rd Norman, OK 73019'),
+
+(109, 109, 'N/A', 'N/A', 'navalrotc@ou.edu', '(405)-325-2021', '290 West Brooks Street Room 116 NORMAN, OK 73019'),
+
+(110, 110, 'Adam', 'Brigan', 'adam.brigan@navigators.org', '(918)-557-5030', '1602 Homeland Avenue Norman , OK 73072'),
+
+(111, 111, 'N/A', 'N/A', 'nsa@ou.edu', '(572)-910-2529', 'N/A'),
+
+(112, 112, 'Catori', 'Roberts', 'catori.roberts@ou.edu', '(405)-965-3324', 'N/A'),
+
+(113, 113, 'N/A', 'N/A', 'obioutreach@gmail.com', 'N/A', 'N/A'),
+
+(114, 114, 'Chris', 'Lloyd', 'christopher.loyd@ou.edu', '(918)-413-6040', '1601 E Imhoff Rd Unit #4013 Norman, OK 73071'),
+
+(115, 115, 'N/A', 'N/A', 'N/A', '(405)-325-3163', '900 Asp Ave Suite 370 Norman, OK 73019'),
+
+(116, 116, 'N/A', 'N/A', 'okiebellesofficers@gmail.com', 'N/A', 'N/A'),
+
+(117, 117, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'),
+
+(118, 118, 'Marley', 'Hutchins', 'marley.hutchins@ou.edu', 'N/A', 'N/A'),
+
+(119, 119, 'N/A', 'N/A', 'oklahomalawreview1@gmail.com', '(405)-325-5192', '300 Timberdell Road Norman, OK 73019'),
+
+(120, 120, 'N/A', 'N/A', 'voting@ou.edu', 'N/A', 'N/A'),
+
+(121, 121, 'N/A', 'N/A', 'owl@ou.edu', 'N/A', 'N/A'),
+
+(122, 122, ),
+
+(123, 123, ),
+
+(124, 124, ),
+
+(125, 125, ),
+
+(126, 126, ),
+
+(127, 127, ),
+
+(128, 128, ),
+
+(129, 129, ),
+
+(130, 130, ),
+
+(131, 131, ),
+
+(132, 132, ),
+
+(133, 133, ),
+
+(134, 134, ),
+
+(135, 135, ),
+
+(136, 136, ),
+
+(137, 137, ),
+
+(138, 138, ),
+
+(139, 139, ),
+
+(140, 140, ),
+
+(141, 141, ),
+
+(142, 142, ),
+
+(143, 143, ),
+
+(144, 144, ),
+
+(145, 145, ),
+
+(146, 146, ),
+
+(147, 147, ),
+
+(148, 148, ),
+
+(149, 149, ),
+
+(150, 150, );
