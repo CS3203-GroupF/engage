@@ -150,6 +150,39 @@ body {
     padding: 0;
 }
 
+/* Red background for the entire page */
+body {
+    background-color: rgb(184, 8, 8);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for white content area with 3-inch margins */
+.container {
+    background-color: white;
+    width: calc(100% - 6in); /* 3 inches from both sides */
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px; /* Prevents the container from being too wide */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 900px) {
+    .container {
+        width: calc(100% - 2in); /* Reduce margin width for medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%; /* Full width for very small screens */
+        margin: 0;
+        padding: 10px; /* Adjust padding for small screens */
+    }
+}
+
 /* Navbar styles */
 .navbar ul {
     display: flex;
